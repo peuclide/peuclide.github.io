@@ -1,17 +1,5 @@
+---
+title: "Nick's Website"
+---
 
-<img class="bg" src="photos/IMG_4655 (1).jpg" height="6000px" width="5000px"/>  
-
-***
-
-<img src="photos/Profile_pic.jpg" align = "left" height="400px" width="300px" />  
-
-<center>
-#__Peter Euclide, M.Sc.__
-##Doctoral Candidate  
-##University of Vermont  
-##Department of Biology  
-##Burlington, Vermont  
-##peter.euclide@uvm.edu
-
-</center>
-
+Hello, World!

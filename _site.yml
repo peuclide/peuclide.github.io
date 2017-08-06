@@ -1,18 +1,9 @@
-name: "my-website"
+name: "nicks-website"
+output_dir: "."
 navbar:
-  title: "Peter Euclide"
+  title: "Nicks Website"
   left:
     - text: "Home"
       href: index.html
-    - text: "Ongoing Projects"
-      href: Projects.html
-    - text: "Past Projects"
-      href: Past_projects.html
-    - text: "Education and Outreach"
-      href: ed_and_out.html   
-    - text: "CV"
-      href: CV.html
-output:
-  html_document:
-    theme: yeti
-    css: style.css
+    - text: "About Me"
+      href: about.html
