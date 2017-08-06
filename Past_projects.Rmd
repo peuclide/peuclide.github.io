@@ -28,6 +28,8 @@ __Euclide, P. T.__, & Stockwell, J. D. (2015). Effects of gut content on δ15N, 
 
 As stated above, Mysis are a common macro-zooplankton throughout North America. In addition to a large native range in Eastern North America, Mysis were purposefully added to many western lakes to boost sport fish productivity such as lake trout and kokanee including many lakes in Colorado. Because Mysis are a important source of food for fish and an important predator of zooplankton, Mysis density can be a important predictor of system productivity. However, documentation of Mysis density has been inconsistent and not easily accessible. Therefore, we have begun to assemble a central dataset of Mysis density data from across North America, though most our data is from the Great Lakes.
 
+__RShiny App:__ https://peter-euclide.shinyapps.io/Mysis_density_app/
+
 ***
 ###_Impact of low quality diet on swimming performance and essential fatty acids_
 ***
