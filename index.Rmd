@@ -1,17 +1,48 @@
+---
+title: __ __
+---
 
-<img class="bg" src="photos/IMG_4655 (1).jpg" height="6000px" width="5000px"/>  
+<img src="photos/ed_banner.jpg" style="float: left; width: 100%; margin-bottom: 2em;">
+
+</script>
+<div class="row">
+<div class="col-xs-12 col-sm-12 text-left">
 
 ***
 
-<img src="photos/Profile_pic.jpg" align = "left" height="400px" width="300px" />  
+</script>
+<br/>
+<div class="row">
+<div class="col-xs-12 col-sm-5 text-center">
+<br/>
+<img src="photos/Profile_pic.png" style="width:400px;" align = "top"/> 
+</div>
+<div class="col-xs-12 col-sm-7">
+<br/>
+
+#__Peter Euclide, M.Sc.__
+As doctoral candidate at the University of Vermont my reserach focuses on understanding the consequences of habitat fragmentation on the ecology and genetic population structure of five different native fishes. In addition to fish and habitat fragmentation I like:
+
+* [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
+* [_Mysis_](https://peuclide.github.io/Past_projects.html)
+* [Racing fish](https://peuclide.github.io/Past_projects.html)
+* RShiny
+
+</div>
+</div>
+
+<br/>
+
+***
 
 <center>
-#__Peter Euclide, M.Sc.__
-##Doctoral Candidate  
-##University of Vermont  
-##Department of Biology  
-##Burlington, Vermont  
-##peter.euclide@uvm.edu
+<img src="photos/LakeTrout.jpg" style="float: left; width: 30%; margin-right: 5%; margin-bottom: 0.5em;">
+<img src="photos/WHSquare.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<iframe src="https://player.vimeo.com/video/245268515?autoplay=1&loop=1" style=float: left; width="250"       height="250" margin-right: 1% frameborder="0" webkitallowfullscreen mozallowfullscreen   allowfullscreen></iframe>
+<center>
+</script>
+<br/>
+<div class="row">
+<div class="col-xs-12 col-sm-12 text-center">
 
-</center>
-
+***
