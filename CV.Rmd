@@ -1,6 +1,12 @@
 ---
-title: "Publications"
+title: __Publications__
 ---
+***
+</script>
+<br/>
+<div class="row">
+<div class="col-xs-12 col-sm-8 text-left">
+<br/>
 Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. In Review. Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016.
 
 __Euclide, PT__, Marsden, JE. In Review. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. Freshwater Biology.
@@ -11,4 +17,12 @@ __Euclide, PT__, Hansson, S, Stockwell, JD. 2016. Partial diel vertical migratio
 
 __Euclide, PT__, Stockwell, JD. 2015. Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana. Journal of Great Lake Research. 41: 926-929.
 
-[click here to download my CV](pdfs/CV.pdf)
+[click here to download my CV](pdfs/CV.pdf)</div>
+
+<div class="col-xs-12 col-sm-4">
+<br/>
+<img src="photos/Fig_2_scul.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/FullMap_EFF_revisions_CWlabeled.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/Figure_5_tess.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/Figure 1.png" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+
