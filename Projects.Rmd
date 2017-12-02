@@ -1,68 +1,108 @@
 ---
-title: "Ongoing Projects"
+title: __ __
+output: html_document
 ---
+
+  <img src="photos/causeway2.jpg" style="width:100%;" align = "top"/>
+<div class="row">
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
 ***
-<img class="bg" src="photos/causeway2.jpg" height="6000px" width="5000px"/>
-
-
-
-
-_Habitat Fragmentation_
----
-Habitat fragmentation is a major conservation issue impacting aquatic environments. My research goal is to understand how humans influence the evolution of aquatic species by constructing dams and other aquatic barriers which unnaturally isolate populations. In Vermont, there are over 1000 dams and numerous road crossings, many of which form complete or partial barriers to fish movement. Using both genetic techniques and behavioral ecology, I aim to determine how different species interact with barriers and how the structure and age of barriers influences the population structure of fish populations. 
-
-<div style="clear:both"></div>
-
-<img src="photos/IMG_4737.jpg" style="float:left" height="400px" width="300px" />
-
-***
-###_The influence of three distinct barrier types on population structure_
+#__Defining stock structure of Rainbow Smelt in Lake Champlain:__
 ***
 
-Barrier type and age are important predictors of the impact a given barrier could have on the natural community of a stream and the movement of species in the area (Gouskov & Vorburger, 2016). By examining the genetic structure of tessellated darter (Etheostoma olmstedi) across three types of barriers present in the Lake Champlain watershed (lake causeways, low-head dams, and a natural fall line) I will be able to understand how the type and age of barrier influences gene flow. Currently, we have collected darters above and below the fall line, above and below dams below the fall line, and in the major basins of Lake Champlain separated by causeways. By genotyping 30 to 50 individuals from each sample location at a suite of 9 microsatellite loci I will be able to effectively compare the population-level impacts of three types of barriers.
+###__Background:__ 
+Lake Champlain is divided into three major basins by large causeways. Current management of forage fish takes place in all basins, but no research has been conducted to evaluate the genetic stock structure of the population. 
 
-<div style="clear:both"></div>
+###__Questions:__ 
+1) Do rainbow smelt in Lake Champlain constitute a single genetic population or are populations structured by basin?
 
-___We hypothesize:___
+2) Does genetic data support demographic data of stock structure?
 
-1)	Genetic distance is positively correlated with barrier age.
+###__Project status:__
 
-2)	Genetic distance is greater around complete barriers such as dams and fall lines than it is around partial barriers such as causeways.
+Manuscript in preparation.
 
-***
-###_Whole lake fragmentation: do causeways impact the genetic structure of fish?_
-***
-<img src="photos/mapCauseways.png" style="float:right" height="300px" width="200px" />
+  </div>
 
-The life history of a species can have large impact on its sensitivity to habitat fragmentation (Henle et al., 2004). Life history traits such as dispersal ability, early life stage movement, foraging behavior could all influence how a species is or is not influenced by a barrier. Because the role of small differences in species ecology in determining evolution and structuring of populations is poorly understood, recent studies have called for additional research using multiple species to improve models that predict the long-term effects of changes in landscape structure, such as habitat fragmentation (Richardson et al., 2016). By examining the impact of the same barriers on multiple species with various ecological niches ability I aim to fill this partially fill this gap research while establishing the impact of an under-researched type of barrier (causeways). Currently, we have begun genotyping three native to Lake Champlain, rainbow smelt, lake whitefish and lake cisco collected from three basins of Lake Champlain (figure 1). By comparing differences in genetic structuring among these three species I aim to evaluate the variation of effects causeways can have on the population structure of fish populations. 
+  <div class="col-xs-12 col-sm-5">
 
-___We hypothesize:___
+  <img src="photos/mapCauseways.png" style="width:100%;" align = "top"/> 
+  Dots indicate sample locations and red lines indicate causeways.
 
-1)	Genetic distance will be negatively correlated with dispersal ability.
+<br/><br/>
 
-2)	Populations sampled on either side of a causeway will be more genetically distinct from one another than those sampled on the same side of a causeway.
-
-<img class="bg" src="photos/causeway.jpg" height="6000px" width="5000px"/>
-
-<div style="clear:both"></div>
+  </div>
+</div>
 
 ***
-###_Influence of lake causeways on dispersal and behavior of walleye:_
+
+<br/>
+<div class="row">
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/>
+  <img src="photos/PCR.png" style="width:100%;" align = "top"/> 
+  </div>
+
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
+***
+##__Genetic structure of whitefish in Lake Champlain__
 ***
 
-Walleye are an economically and ecologically important species in Lake Champlain and throughout North America with high recreational interest. However, walleye populations in Lake Champlain have been declining slowly since the 1960s (Marsden & Langdon, 2012). Though populations remain sufficient for recreational needs, the cause of the decline is unknown. To begin to understand basic walleye movement patterns and behavior in Lake Champlain we are using three different techniques. First, we are evaluating trends in walleye movement across causeways and between spawning rivers using over 40 years of mark-recapture data collected by the state of Vermont Fish and Wildlife Department. Second, using acoustic telemetry we are able to track 26 walleye throughout Lake Champlain; examining how individual fish interact with causeway openings and assess seasonal migrations around the lake. Finally, by assessing the genetic structure of four major spawning rivers around the lake we are able to estimate gene flow and straying among spawning sites to better understand how walleye populations are structured in Lake Champlain. 
+###__Background:__ 
+Whitefish are a important commercial species in the Great Lakes and were also historically commercially harvested in Lake Champlain. Despite historic importance, little is known about the current status of whitefish in Lake Champlain.
 
-___We Hypothesize:___
+###__Questions:__ 
 
-1)	Walleye movement throughout Lake Champlain is impeded by lake causeways.
+1) Have lake causeways fragmented whitefish enough to genetically structure the population?
 
-2)	Natal site fidelity determines population genetic structure regardless of barriers.
+2) Is there any evidence of a bottleneck in whitefish populations associated with commercial fishing?
 
-3)	Genetic similarity between natal sites is structured by causeways.
+###__Project status:__
 
-<img class="bg" src="photos/vemco.jpg" height="6000px" width="5000px"/>
+Genotyping and analyzing data. 
 
+  </div>
+</div>
 
+***
 
+<div class="row">
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
+***
+##__Movement and genetic structure of walleye in Lake Champlain__
+***  
 
+###__Background:__ 
+Walleye are an economically and ecologically important species in Lake Champlain and throughout North America. However, walleye populations in Lake Champlain have been declining slowly since the 1960s (Marsden & Langdon, 2012). Our goal is to use a combination of genetic, mark and recapture, and telemetry data better understand the dispersal and movement of Walleye in the lake. 
 
+###__Questions:__ 
+
+1) Do spawning rivers constitue distinct genetic populations of walleye?
+
+2) Are walleye easily able to cross lake causeways?
+
+3) What is the straying rate of walleye between spawning rivers?
+
+###__Project status:__
+
+Genotyping walleye from four major spawning rivers. 
+
+ </div>
+
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/><br/>
+
+  <img src="photos/vemco.jpg" style="width:100%;" align = "center;" margin-bottom: 0.5em/> 
+  <br/><br/>
+  <img src="photos/walleye.jpg" style="width:100%;" align = "center"/> 
+
+<br/><br/>
+
+  </div>
+</div>
