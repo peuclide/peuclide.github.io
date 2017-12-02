@@ -49,7 +49,7 @@ Manuscript in preparation.
   <br/>
   
 ***
-##__Genetic structure of whitefish in Lake Champlain__
+#__Genetic structure of whitefish in Lake Champlain__
 ***
 
 ###__Background:__ 
@@ -75,7 +75,7 @@ Genotyping and analyzing data.
   <br/>
   
 ***
-##__Movement and genetic structure of walleye in Lake Champlain__
+#__Movement and genetic structure of walleye in Lake Champlain__
 ***  
 
 ###__Background:__ 
@@ -106,3 +106,7 @@ Genotyping walleye from four major spawning rivers.
 
   </div>
 </div>
+
+***
+
+peuclide@uvm.edu
