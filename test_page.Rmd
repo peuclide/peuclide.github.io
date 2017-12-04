@@ -1,0 +1,124 @@
+---
+title: __ __
+output: html_document
+---
+
+<img src="photos/UVM_research.jpg" style="width:100%;" align = "top"/>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+
+***
+#__Current Research__
+***
+I am interested in understanding how populations of fish are sub-structured across their range and what factors limit dispersal. To ubelieve that the best understanding of ecology comes from the intercept between behavioral ecology and evolutionary biology. My current research uses molecular techniques in combination with long-term demography and mark-recapture datasets to determine how habitat fragmentation and landscapes structure fish populations.
+
+<br/>
+
+<img src="photos/IMG_4655 (1).jpg" style="width:100%;" align = "top"/> 
+
+  </div>
+
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/>
+
+<img src="photos/DSC_0447.jpg" style="float: left; width: 40%; margin-right: 15%; margin-bottom: 0.5em;">
+<img src="photos/IMG_0004.jpg" style="float: left; width: 40%; margin-right: 0%; margin-bottom: 0.5em;">
+<img src="photos/DSC_0056 (1).jpg" style="float: left; width: 40%; margin-right: 15%; margin-bottom: 0.5em;">
+<img src="photos/IMG_4737 copy.jpg" style="float: left; width: 40%; margin-right: 0%; margin-bottom: 0.5em;">
+<img src="photos/DSC_0133.jpg" style="float: left; width: 40%; margin-right: 15%; margin-bottom: 0.5em;">
+<img src="photos/IMG_1371.jpg" style="float: left; width: 40%; margin-right: 0%; margin-bottom: 0.5em;">
+
+<br/><br/>
+
+  </div>
+</div>
+
+
+***
+
+<br/>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/>
+  <img src="photos/PDVM.png" style="width:100%;" align = "top"/> 
+  </div>
+
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
+***  
+#__Masters Research__
+***
+
+In addition to molecular ecology, I am interested in behavioral ecology. For two years I had the opportunity to research partial diel vertical migration behavior of _Mysis diluviana_ in Lake Champlain. Using a combination of stable isotopes and basic demographic analysis I determined that gravid females and large Mysis with higher C:N content (lipid content) were more likely to remain on the bottom at night while the rest of the population migrated to the surface to feed.
+<br/><br/><br/><br/>
+
+<img src="photos/mysis2.jpg" style="width:40%;" ; margin-right: 10%; align = "center"/> 
+<img src="photos/IMG_2448.jpg" style="width:40%;" align = "center"/> 
+
+
+  </div>
+</div>
+
+***
+<br/>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
+*** 
+#__Side Projects__
+***
+Harmful cyanobacteria blooms are a global issue. One associated issue that has not been studied in detail though is how higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two month experiment to determine how essential fatty acid poor diets similar to what might happen during a long cyanobacteria bloom impact fish fatty acid content, swimming performance and respiration. 
+
+</div>
+
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/><br/>
+
+  <iframe src="https://player.vimeo.com/video/170673352" width="300" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/170673352">JunkFoodHypothesis</a> from <a href="https://vimeo.com/user38109713">Victoria Pinheiro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<br/><br/>
+
+  </div>
+</div>
+
+***
+
+<br/>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-5">
+  <br/><br/>
+<center>
+  <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="width:51%;" align = "top"/> 
+<img src="https://www.nceas.ucsb.edu/files/knb-tile.png" style="width:50%;" align = "top"/> 
+
+</center>
+  </div>
+
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+  
+***  
+#__Apps and data__
+***
+
+I believe that making data accessible and easy to visualize is an important step in replicable, transparent science. Making my data accessile through puclic databases such as [KNB](https://knb.ecoinformatics.org/#view/knb.749.1), code sharing through [GitHub](https://github.com/peuclide/), and data visualization with my own [RShiny](https://peter-euclide.shinyapps.io/Mysis_density_app/) are just a few ways that I have tried to make my own science more accessible.
+
+
+<br/><br/>
+
+<center>
+<img src="https://www.rstudio.com/wp-content/uploads/2015/10/r-packages.png" style="width:50%;" align = "center"/> 
+</center>
+  </div>
+</div>
+
+***
+
