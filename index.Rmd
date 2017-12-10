@@ -24,10 +24,10 @@ title: __ __
 As doctoral candidate at the University of Vermont my reserach focuses on understanding the consequences of habitat fragmentation on the ecology and genetic population structure of five different native fishes. In addition to fish and habitat fragmentation I like:
 
 * [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
-* [_Mysis_](https://peuclide.github.io/Research.html)
-* [Racing fish](https://peuclide.github.io/Research.html)
-* RShiny
-* <a href="https://peuclide.github.io/Research.html#fish_race">Racing fish</a>
+* <a href="https://peuclide.github.io/Research#mysis">Mysis</a>
+* <a href="https://peuclide.github.io/Research#fish_race">Racing fish</a>
+* <a href="https://peuclide.github.io/Research#apps_and_dat">RShiny</a>
+
 
 </div>
 </div>
