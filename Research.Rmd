@@ -73,8 +73,9 @@ In addition to molecular ecology, I am interested in behavioral ecology. For two
 *** 
 #__Side Projects__
 ***
+<a name="fish_race"></a>
 
-<a> name="fish_racing">Harmful</a> cyanobacteria blooms are a global issue. One associated issue that has not been studied in detail though is how higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two month experiment to determine how essential fatty acid poor diets similar to what might happen during a long cyanobacteria bloom impact fish fatty acid content, swimming performance and respiration. 
+Harmful cyanobacteria blooms are a global issue. One associated issue that has not been studied in detail though is how higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two month experiment to determine how essential fatty acid poor diets similar to what might happen during a long cyanobacteria bloom impact fish fatty acid content, swimming performance and respiration. 
 
 </div>
 
