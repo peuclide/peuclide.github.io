@@ -28,6 +28,8 @@ As doctoral candidate at the University of Vermont my reserach focuses on unders
 * [Racing fish](https://peuclide.github.io/Past_projects.html)
 * RShiny
 
+* <a href="https://peuclide.github.io/Research#fish_racing">Racing fish</a>
+
 </div>
 </div>
 

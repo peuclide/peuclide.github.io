@@ -5,10 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Ongoing Projects"
-      href: Projects.html
-    - text: "Past Projects"
-      href: Past_projects.html
+    - text: "Research"
+      href: Research.html
     - text: "Education and Outreach"
       href: ed_and_out.html   
     - text: "CV"

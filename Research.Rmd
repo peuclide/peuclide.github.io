@@ -73,7 +73,8 @@ In addition to molecular ecology, I am interested in behavioral ecology. For two
 *** 
 #__Side Projects__
 ***
-Harmful cyanobacteria blooms are a global issue. One associated issue that has not been studied in detail though is how higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two month experiment to determine how essential fatty acid poor diets similar to what might happen during a long cyanobacteria bloom impact fish fatty acid content, swimming performance and respiration. 
+
+<a> name="fish_racing">Harmful</a> cyanobacteria blooms are a global issue. One associated issue that has not been studied in detail though is how higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two month experiment to determine how essential fatty acid poor diets similar to what might happen during a long cyanobacteria bloom impact fish fatty acid content, swimming performance and respiration. 
 
 </div>
 
@@ -106,7 +107,7 @@ Harmful cyanobacteria blooms are a global issue. One associated issue that has n
   <br/>
   
 ***  
-#__Apps and data__
+#__Apps and Data__
 ***
 
 I believe that making data accessible and easy to visualize is an important step in replicable, transparent science. Making my data accessile through puclic databases such as [KNB](https://knb.ecoinformatics.org/#view/knb.749.1), code sharing through [GitHub](https://github.com/peuclide/), and data visualization with my own [RShiny](https://peter-euclide.shinyapps.io/Mysis_density_app/) are just a few ways that I have tried to make my own science more accessible.
