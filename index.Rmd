@@ -20,8 +20,8 @@ title: __ __
 <div class="col-xs-12 col-sm-7">
 <br/>
 
-#__Peter Euclide, M.Sc.__
-As doctoral candidate at the University of Vermont my reserach focuses on understanding the consequences of habitat fragmentation on the ecology and genetic population structure of five different native fishes. In addition to fish and habitat fragmentation I like:
+#__Peter Euclide, Ph.D.__
+As research biologist at the University of Vermont my reserach focuses on understanding the consequences of habitat fragmentation on the ecology and genetic population structure of five different native fishes. In addition to fish and habitat fragmentation I like:
 
 * [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
 * <a href="https://peuclide.github.io/Research#mysis">Mysis</a>
