@@ -1,7 +1,7 @@
 ---
 title: __Peter Euclide__
 author: peuclide@uvm.edu
-date: "Dec 10, 2017"
+date: "April 10, 2018"
 output:  html_document
 ---
 
@@ -35,11 +35,12 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 ##__EDUCATION__
 ***
 ###__University of Vermont__, Burlington, VT </br>
-- 2018 - __Ph.D in Biology__; anticipated April</br>
-    Effect of anthropogenic habitat fragmentation on fish genetic diversity</br>
+- 2018 - __Ph.D in Biology__; </br>
+    Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
+</br>
     Advisor: J. Ellen Marsden</br></br>
 - 2015 - __M.Sc. in Natural Resources (Aquatic Ecology and Watershed Science)__ </br>
-    M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, Mysis diluviana, in Lake Champlain.</br>
+    M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, _Mysis diluviana_, in Lake Champlain.</br>
     Advisor: Jason D. Stockwell</br></br>
     
 ###__Kent State University__, Kent, OH</br>
@@ -49,9 +50,9 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 ##__PUBLICATIONS__
 ***
 
-Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. In Review. Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016. _Journal of Great Lakes Research_
+__Euclide, PT__, Marsden, JE. In Review. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. _Conservation Genetics_.
 
-__Euclide, PT__, Marsden, JE. In Review. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. _Freshwater Biology_.
+Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. 2018. Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016. _Journal of Great Lakes Research_
 
 __Euclide, PT__, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. [Lack of population genetic structure of slimy sculpin in a large, fragmented lake](pdfs/euclide et al 2017 b.pdf). _Ecology of Freshwater Fish_.
 
@@ -63,6 +64,8 @@ __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, an
 ##__REAEARCH PRESENTATIONS__
 ***
 (Presenter bolded)
+
+__Euclide, PT__, Marsden, JE 2018. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. Lake Champlain Research Conference. Burlington, Vermont _[oral presentation]_
 
 __Euclide, PT__, Marsden, JE 2017. Movement of walleye in Lake Champlain: forty years of mark-recapture data. International Association of Great Lakes Research 2017 meeting. Detroit, Michigan _[oral presentation]_
 
@@ -81,6 +84,13 @@ __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel verti
 __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of _Mysis diluviana_. University of Vermont Student Research Conference, Vermont _[oral presentation]_
 
 __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of _Mysis diluviana_. 2013 Lake Champlain Research Consortium Student Symposium _[oral presentation]_
+
+***
+##__INVITED TALKS__
+***
+(Presenter underlined)
+
+__Euclide, PT__, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT
 
 ***
 ##__DATA PUBLICATIONS__
@@ -113,6 +123,10 @@ __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel verti
 - Structured Decision-Making and Barrier Removals - _Fall 2016_
 
 - FishR Workshop for Analyzing Fisheries Data - _Spring 2014_
+
+###__Manuscripts reviewed for:__
+
+ Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (1), Journal of Fish Biology (1)
 
 ###__Academic research technician:__
 

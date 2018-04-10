@@ -21,7 +21,8 @@ title: __ __
 <br/>
 
 #__Peter Euclide, Ph.D.__
-As research biologist at the University of Vermont my reserach focuses on understanding the consequences of habitat fragmentation on the ecology and genetic population structure of five different native fishes. In addition to fish and habitat fragmentation I like:
+I am research biologist interested in using the combination of population ecology and modern molecular techniques to address conservation and management questions. My current research uses genetic data to identify how populations of fish are structured by aquatic barriers such as dams, fall lines and causeways. However, I have had the opportunity to work on all sorts of other projects such as:
+
 
 * [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
 * <a href="https://peuclide.github.io/Research#mysis">Mysis</a>
@@ -29,10 +30,13 @@ As research biologist at the University of Vermont my reserach focuses on unders
 * <a href="https://peuclide.github.io/Research#apps_and_dat">RShiny</a>
 
 
+
 </div>
 </div>
 
 <br/>
+My research career began in college at Kent State University in Ohio where I worked in two very different labs, one studying community ecology of stream leaf packs and the other studying the population genetics of _Lobelia siphilitica_. After completing my B.S. in organismal biology, I moved to the University of Vermont and earned a M.Sc. in Natural Resources  studying the diel vertical migration behavior of _Mysis diluviana_ in Lake Champlain before changing departments and earning a Ph.D. in Biology with studying the impact of habitat fragmentation on five different species of fish.
+
 
 ***
 
