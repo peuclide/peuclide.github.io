@@ -10,9 +10,9 @@ output: html_document
   <br/>
 
 ***
-#__Current Research__
+#__Ph.D. Research__
 ***
-I am interested in understanding how barriers to gene flow limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. My current research is at the intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography and mark-recapture datasets to describe patterns of genetic diversity and structure in five species of fish native to Lake Champlain in the face of increasing habitat fragmentation.
+My Ph.D. reserach focused on understanding how barriers to gene flow limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. My current research is at the intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography and mark-recapture datasets to describe patterns of genetic diversity and structure in five species of fish native to Lake Champlain in the face of increasing habitat fragmentation.
 
 <br/>
 
@@ -131,4 +131,6 @@ I believe that making data accessible and easy to visualize is an important step
 </div>
 
 ***
-
+<div class="col-xs-12 col-sm-12 text-left">
+<left>
+Contact me: peuclide@uvm.edu 

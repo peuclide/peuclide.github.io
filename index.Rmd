@@ -1,5 +1,9 @@
 ---
 title: __ __
+output: 
+  html_document:
+    includes:
+       in_header: googleAnalytics.Rhtml
 ---
 
 <img src="photos/ed_banner.jpg" style="float: left; width: 100%; margin-bottom: 2em;">
@@ -52,4 +56,7 @@ My research career began in college at Kent State University in Ohio where I wor
 
 ***
 <left>
-peuclide@uvm.edu
+Contact me: peuclide@uvm.edu 
+
+<div class="row">
+<a href="https://twitter.com/peuclide" class="twitter-follow-button" data-show-count="false">Follow: @peuclide</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -49,6 +49,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 ***
 ##__PUBLICATIONS__
 ***
+__Euclide, PE__, Pientka, B, Marsden, JE. In Review. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. _Transactions of the American Fisheries Society_
 
 __Euclide, PT__, Marsden, JE. In Review. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. _Conservation Genetics_.
 
