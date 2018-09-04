@@ -14,7 +14,7 @@ output: html_document
 #__Current Research__
 ***
 
-I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooperative Fishery Research Unit at UW-Stevens Point on a range of genomics based projects. Our lab focuses on using RAD-Seq and other techniques reduced representation methods to idetify spatial structure in fish populations and develop SNP panels for fisheries managment. I am currently involved in a range of projects including a methods analysis of impact of PCR duplicates on RAD-seq analysis, the development of a walleye SNP panel, and a metagenomic assessment of Wisconsin lakes and rivers.  
+I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooperative Fishery Research Unit at UW-Stevens Point on a range of genomics based projects. Our lab uses RAD-Seq and other reduced representation methods to identify spatial structure in fish populations and develop SNP panels for fisheries management. I am currently involved in a range of projects including a methods analysis of impact of PCR duplicates on RAD-seq analysis, the development of a walleye SNP panel, and a eDNA metagenomic assessment of Wisconsin lakes and rivers.  
 
   </div>
   <br/><br/><br/><br/><br/><br/>
@@ -35,7 +35,7 @@ I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooper
 ***
 #__Ph.D. Research__
 ***
-My Ph.D. reserach focused on understanding how barriers limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. My current research is at the intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography and mark-recapture datasets to describe patterns of genetic diversity and structure in five species of fish native to Lake Champlain in the face of increasing habitat fragmentation.
+My Ph.D. research focused on understanding how barriers limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. My current research is at the intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography and mark-recapture datasets to describe patterns of genetic diversity and structure in five species of fish native to Lake Champlain in the face of increasing habitat fragmentation.
 
 <br/>
 
