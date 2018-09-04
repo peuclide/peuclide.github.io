@@ -9,7 +9,6 @@ output: html_document
   <div class="col-xs-12 col-sm-7">
   <br/>
 
-<img src="photos/pcr_duplicates.png" style="width:40%;" ; margin-right: 10%; align = "center"/> 
 
 ***  
 #__Current Research__
@@ -17,9 +16,10 @@ output: html_document
 
 I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooperative Fishery Research Unit at UW-Stevens Point on a range of genomics based projects. Our lab focuses on using RAD-Seq and other techniques reduced representation methods to idetify spatial structure in fish populations and develop SNP panels for fisheries managment. I am currently involved in a range of projects including a methods analysis of impact of PCR duplicates on RAD-seq analysis, the development of a walleye SNP panel, and a metagenomic assessment of Wisconsin lakes and rivers.  
 
-<br/><br/><br/><br/>
-
   </div>
+  <br/><br/><br/><br/><br/><br/>
+  <img src="photos/pcr_duplicates.png" style="width:40%;" ; margin-right: 10%; align = "center"/> 
+
 </div>
 
 ***
@@ -29,9 +29,8 @@ I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooper
   <div class="col-xs-12 col-sm-7">
   <br/>
 
-<a name="fish_race"></a> 
+<a name="PhD"></a> 
 
-***
 
 ***
 #__Ph.D. Research__
@@ -128,7 +127,7 @@ Harmful cyanobacteria blooms are a global issue. Because cyanobacteria have litt
   <br/><br/>
 <center>
   <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="width:51%;" align = "top"/> 
-<img src="https://www.nceas.ucsb.edu/files/knb-tile.png" style="width:50%;" align = "top"/> 
+<img src="./photos/knb-tile.png" style="width:50%;" align = "top"/> 
 
 </center>
   </div>
@@ -149,7 +148,7 @@ I believe that making data accessible and easy to visualize is an important step
 <br/><br/>
 
 <center>
-<img src="https://www.rstudio.com/wp-content/uploads/2015/10/r-packages.png" style="width:50%;" align = "center"/> 
+<img src="./photos/r-packages.png" style="width:50%;" align = "center"/> 
 </center>
   </div>
 </div>
