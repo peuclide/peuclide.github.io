@@ -22,7 +22,7 @@ in 2013 I worked with the [ECHO Lake Aquarium and Science Center](http://www.ech
   <div class="col-xs-12 col-sm-5">
   <br/><br/><br/><br/><br/>
 
-  <img src="http://www.echovermont.org/images/mobile/echologo.png" style="width:75%;" align = "top"/> 
+  <img src="https://www.bjams.org/wp-content/uploads/2016/04/echologo.png" style="width:75%;" align = "top"/> 
 
 <br/><br/>
 
