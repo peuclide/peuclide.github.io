@@ -156,4 +156,4 @@ I believe that making data accessible and easy to visualize is an important step
 ***
 <div class="col-xs-12 col-sm-12 text-left">
 <left>
-Contact me: peuclide@uvm.edu 
+Contact me: peter.euclide@uwsp.edu 
