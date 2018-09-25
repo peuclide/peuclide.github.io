@@ -11,6 +11,8 @@ navbar:
       href: ed_and_out.html   
     - text: "CV"
       href: CV.html
+    - text: "Where I work"
+      href: sample_map.html
 output:
   html_document:
     theme: yeti

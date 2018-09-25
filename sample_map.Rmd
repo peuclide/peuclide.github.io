@@ -1,0 +1,63 @@
+---
+title: __ __
+output: html_document
+---
+
+<div class="row">
+  <div class="col-xs-12 col-sm-7">
+  <br/>
+
+
+```{r,  echo = FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+
+library(leaflet)
+
+sites <- read.csv("./sample_coords.csv")
+# create specific icon for every type of point
+icon.walleye <- makeAwesomeIcon(icon= 'flag', markerColor = 'blue', iconColor = 'black')
+icon.darter <- makeAwesomeIcon(icon = 'flag', markerColor = 'red', iconColor = 'black')
+icon.sculpin <- makeAwesomeIcon(icon = 'flag', markerColor = 'green', iconColor = 'black')
+icon.smelt <- makeAwesomeIcon(icon = 'flag', markerColor = 'orange', iconColor = 'black')
+icon.mysis <- makeAwesomeIcon(icon = 'flag', markerColor = 'cadetblue', iconColor = 'black')
+icon.whitefish <- makeAwesomeIcon(icon = 'flag', markerColor = 'white', iconColor = 'black')
+
+leaflet(sites) %>% 
+  addTiles() %>%
+  addAwesomeMarkers(data = sites[sites$species == "walleye",], 
+                    group = "walleye", 
+                    icon = icon.walleye, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions()) %>%
+  addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
+                    group = "tessellated darters",
+                    icon = icon.darter,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions())%>%
+  addAwesomeMarkers(data = sites[sites$species == "slimy sculpin",], 
+                    group = "slimy sculpin",
+                    icon = icon.sculpin,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions())%>%
+  addAwesomeMarkers(data = sites[sites$species == "rainbow smelt",], 
+                    group = "rainbow smelt",
+                    icon = icon.smelt,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions())%>%
+  addAwesomeMarkers(data = sites[sites$species == "mysis",], 
+                    group = "mysis", 
+                    icon = icon.mysis, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions()) %>%
+  addAwesomeMarkers(data = sites[sites$species == "whitefish",], 
+                    group = "whitefish", 
+                    icon = icon.whitefish, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions()) %>%
+  addLayersControl(
+    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish" ),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+
+  
+```
+
