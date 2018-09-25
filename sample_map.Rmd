@@ -3,12 +3,8 @@ title: __ __
 output: html_document
 ---
 
-<div class="row">
-  <div class="col-xs-12 col-sm-7">
-  <br/>
 
-
-```{r,  echo = FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+```{r,  echo = FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 
 library(leaflet)
 
@@ -55,7 +51,7 @@ leaflet(sites) %>%
                     clusterOptions = markerClusterOptions()) %>%
   addLayersControl(
     overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish" ),
-    options = layersControlOptions(collapsed = FALSE)
+    options = layersControlOptions(collapsed = FALSE), position = "topleft"
   )
 
   
