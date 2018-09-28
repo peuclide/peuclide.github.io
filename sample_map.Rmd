@@ -23,37 +23,49 @@ leaflet(sites) %>%
                     group = "walleye", 
                     icon = icon.walleye, 
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions()) %>%
+                    clusterOptions = markerClusterOptions(),
+                    popup= paste(sep = "<br/>","Euclide et al. in prep", "Chen et al. in prep")) %>%
   addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
                     group = "tessellated darters",
                     icon = icon.darter,
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions())%>%
+                    clusterOptions = markerClusterOptions(),
+                    popup='<b><a href="https://doi.org/10.1007/s10592-018-1107-2">Euclide & Marsden 2018</a></b>')%>%
   addAwesomeMarkers(data = sites[sites$species == "slimy sculpin",], 
                     group = "slimy sculpin",
                     icon = icon.sculpin,
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions())%>%
+                    clusterOptions = markerClusterOptions(),
+                    popup='<b><a href="https://doi.org/10.1111/eff.12385">Euclide et al. 2017</a></b>')%>%
   addAwesomeMarkers(data = sites[sites$species == "rainbow smelt",], 
                     group = "rainbow smelt",
                     icon = icon.smelt,
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions())%>%
+                    clusterOptions = markerClusterOptions(),
+                    popup= "Euclide et al. in prep")%>%
   addAwesomeMarkers(data = sites[sites$species == "mysis",], 
                     group = "mysis", 
                     icon = icon.mysis, 
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions()) %>%
+                    clusterOptions = markerClusterOptions(),
+                    popup= paste(sep = "<br/>",
+  "<b><a href='10.1007/s10750-016-2982-5'>Euclide et al. 2017</a></b>",
+  "<b><a href='https://doi.org/10.1016/j.jglr.2015.05.002'>Euclide & Stockwell 2015</a></b>")) %>%
   addAwesomeMarkers(data = sites[sites$species == "whitefish",], 
                     group = "whitefish", 
                     icon = icon.whitefish, 
                     label = ~as.character(species), 
-                    clusterOptions = markerClusterOptions()) %>%
+                    clusterOptions = markerClusterOptions(),
+                    popup= "Euclide et al. in prep") %>%
   addLayersControl(
     overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish" ),
     options = layersControlOptions(collapsed = FALSE), position = "topleft"
   )
 
-  
+ 
+ 
+
+ 
+ 
 ```
 
