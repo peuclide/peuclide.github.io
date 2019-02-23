@@ -7,6 +7,19 @@ output: html_document
 ```{r,  echo = FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 
 library(leaflet)
+library(rgdal)
+library(dataRetrieval)
+
+# grp <- c("USGS Topo", "USGS Imagery Only", "USGS Imagery Topo",
+#          "USGS Shaded Relief", "Hydrography")
+# 
+# att <- paste0("<a href='https://www.usgs.gov/'>",
+#               "U.S. Geological Survey</a> | ",
+#               "<a href='https://www.usgs.gov/laws/policies_notices.html'>",
+#               "Policies</a>")
+# GetURL <- function(service, host = "basemap.nationalmap.gov") {
+#   sprintf("https://%s/arcgis/services/%s/MapServer/WmsServer", host, service)
+# }
 
 sites <- read.csv("./sample_coords.csv")
 # create specific icon for every type of point
@@ -16,8 +29,10 @@ icon.sculpin <- makeAwesomeIcon(icon = 'flag', markerColor = 'green', iconColor 
 icon.smelt <- makeAwesomeIcon(icon = 'flag', markerColor = 'orange', iconColor = 'black')
 icon.mysis <- makeAwesomeIcon(icon = 'flag', markerColor = 'cadetblue', iconColor = 'black')
 icon.whitefish <- makeAwesomeIcon(icon = 'flag', markerColor = 'white', iconColor = 'black')
+icon.smallmouth <- makeAwesomeIcon(icon = 'flag', markerColor = 'black', iconColor = 'red')
 
-leaflet(sites) %>% 
+
+leaflet() %>% 
   addTiles() %>%
   addAwesomeMarkers(data = sites[sites$species == "walleye",], 
                     group = "walleye", 
@@ -25,6 +40,12 @@ leaflet(sites) %>%
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
                     popup= paste(sep = "<br/>","Euclide et al. in prep", "Chen et al. in prep")) %>%
+  addAwesomeMarkers(data = sites[sites$species == "smallmouth bass",], 
+                    group = "smallmouth bass", 
+                    icon = icon.smallmouth, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= "") %>%
   addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
                     group = "tessellated darters",
                     icon = icon.darter,
