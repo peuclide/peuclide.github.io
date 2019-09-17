@@ -1,0 +1,49 @@
+---
+title: Peter T. Euclide
+output: html_notebook
+toc: true
+---
+
+
+***
+##__EDUCATION__
+***
+###__University of Vermont__, Burlington, VT </br>
+- 2018 - __Ph.D in Biology__; </br>
+    Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
+</br>
+    Advisor: J. Ellen Marsden</br></br>
+- 2015 - __M.Sc. in Natural Resources (Aquatic Ecology and Watershed Science)__ </br>
+    M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, _Mysis diluviana_, in Lake Champlain.</br>
+    Advisor: Jason D. Stockwell</br></br>
+    
+###__Kent State University__, Kent, OH</br>
+-  2012 - __BS in Organismal Biology__</br>
+
+##__PUBLICATIONS__
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
+
+***
+
+Chen, K, __Euclide, PE__, Gibbs, LH, Larson, W, Marschall, EA, Sovic, MG, Ludsin, SA. In Review. Population assignment of Lake Erie walleye spawning stocks using RADseq 
+
+__Euclide, PE__, Kilpatrick, CW, Marsden, JE. In Review. Genetic structure of lake whitefish (_Coregonus clupeaformis_) in Lake Champlain, Vermont 100 years after commercial fishery closure.
+
+Gearhart, TG, __Euclide, PT__, Kraft, J, Stockwell, JD. In Prep. Essential fatty acid deficient diets have immediate impacts on physiology and composition of zebrafish (Danio rario).
+
+__Euclide, PE__, Pientka, B, Marsden, JE. In Revision. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Transactions of the American Fisheries Society
+
+__Euclide, PE__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. Accepted. Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls. Molecular Ecology Resources.  
+
+Feron, R., M. Zahm, C. Cabau, C. Klopp, C. Roques, O. Bouchex, C. Eche, S. Valiere, C. Donnadieu, P. Haffray, A. Bestin, R. Morvezen, H. Acloque, __Euclide, PT__, M. Wen, E. Jouano, M. Schartl, J. H. Postlethwait, C. Schraidt, M. R. Christie, W. A. Larson, A. Herpin, and Y. Guiguen. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_. _BioRxiv_:1–22.](https://www.biorxiv.org/content/10.1101/717397v1)
+
+Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. 2018. Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016. _Journal of Great Lakes Research_
+
+__Euclide, PT__, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. [Lack of population genetic structure of slimy sculpin in a large, fragmented lake](pdfs/euclide et al 2017 b.pdf). _Ecology of Freshwater Fish_.
+
+__Euclide, PT__, Hansson, S, Stockwell, JD. 2016. [Partial diel vertical migration in an omnivorous macroinvertebrate, Mysis diluviana.](pdfs/Euclide et al 2017.pdf) _Hydrobiologia_. doi:10.1007/s10750-016-2982-5.
+
+__Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.](pdfs/Euclide and Stockwell 2015.pdf) _Journal of Great Lake Research_. 41: 926-929.
+
+

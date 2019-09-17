@@ -11,14 +11,18 @@ output: html_document
 
 
 ***  
-#__Current Research__
+#__Wisconsin Cooperative Fishery Research Unit - UWSP__
 ***
 
-I am currently working as a postdoc with Wes Larson at the USGS Wisconsin Cooperative Fishery Research Unit at UW-Stevens Point on a range of genomics based projects. Our lab uses RAD-Seq and other reduced representation methods to identify spatial structure in fish populations and develop SNP panels for fisheries management. I am currently involved in a range of projects including a methods analysis of impact of PCR duplicates on RAD-seq analysis, the development of a walleye SNP panel, and a eDNA metagenomic assessment of Wisconsin lakes and rivers.  
+My current research focuses on developing genomic tools for management and conservation and use molecular techniques to study the evolution and adaptation of freshwater fish. In my year and a half at UWSP I have had the opportunity to develop three different Rapture panels for two of the largest commercial fisheries in the Great Lakes, walleye and lake whitefish and a GT-seq panel to help track the invasion of grass carp. I am currently using one of these panels to conduct mixed-stock analysis of walleye in Lake Erie, something that managers have been unable to do until now. In addition to the development of genetic resources, my research includes using eDNA metabarcoding to conduct community assessments and RAD-seq to identify the heritability of lake trout morphotypes.
 
   </div>
   <br/><br/><br/><br/><br/><br/>
-  <img src="photos/pcr_duplicates.png" style="width:40%;" ; margin-right: 10%; align = "center"/> 
+  <img src="photos/East_vs_West_grouped.png" style="width:40%;" ; margin-right: 10%; align = "center"/> 
+  <br/>
+  <img src="photos/Mixed_stock_collections_map.png" style="width:40%;" ; margin-right: 10%; align = "center"/> 
+
+  
 
 </div>
 
@@ -126,7 +130,7 @@ Harmful cyanobacteria blooms are a global issue. Because cyanobacteria have litt
   <div class="col-xs-12 col-sm-5">
   <br/><br/>
 <center>
-  <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="width:51%;" align = "top"/> 
+  <img src="./photos/GitHub-Mark.png" style="width:51%;" align = "top"/> 
 <img src="./photos/knb-tile.png" style="width:50%;" align = "top"/> 
 
 </center>
