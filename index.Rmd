@@ -6,7 +6,11 @@ output:
        in_header: googleAnalytics.Rhtml
 ---
 
-<img src="photos/ed_banner.jpg" style="float: left; width: 100%; margin-bottom: 2em;">
+```{r pressure, echo=FALSE, out.width = '100%'}
+
+knitr::include_graphics("photos/ed_banner.jpg")
+
+```
 
 </script>
 <div class="row">
@@ -25,7 +29,7 @@ output:
 <br/>
 
 #__Peter Euclide, Ph.D.__
-I am research biologist interested in using the combination of modern genomic techniques and ecology to answer questions related to animal movement and local adaptation that inform management and conservation. My current research centers around the use of RAD-seq to develop GT-seq and Rapture panels to study fish evolution and population structure in the Great Lakes. However, I have had the opportunity to work on all sorts of other projects such as:
+I am a research biologist interested in using the combination of modern genomic techniques and ecology to answer questions related to animal movement and local adaptation that inform management and conservation. My current research centers around the use of RAD-seq to develop GT-seq and Rapture panels to study fish evolution and population structure in the Great Lakes. However, I have had the opportunity to work on all sorts of other projects such as:
 
 * Environmental DNA metabarcoding
 * [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
