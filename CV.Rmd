@@ -1,7 +1,7 @@
 ---
 title: __Peter Euclide__
 author: peter.euclide@uwsp.edu
-date: "September 14, 2019"
+date: "February 23, 2020"
 output:
   html_document:
     toc: true
@@ -219,7 +219,7 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 
 - __Limnology:__ Plankton nets, niskin bottles, Schindler-Patalas traps, CTD
 
-- __Taxanomic:__ Basic fish, zooplankton and insect identification
+- __Taxonomic:__ Basic fish, zooplankton and insect identification
 
 ### Computer:
 - __Graphing:__ R, GGPlot, Excel, and Prism
