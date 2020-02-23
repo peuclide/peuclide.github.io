@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="peter.euclide@uwsp.edu" />
@@ -22,8 +22,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -32,10 +32,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -70,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,13 +86,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -108,7 +113,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -128,6 +132,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -149,19 +190,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -206,8 +302,8 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore"><strong>Peter Euclide</strong></h1>
-<h4 class="author"><em><a href="mailto:peter.euclide@uwsp.edu">peter.euclide@uwsp.edu</a></em></h4>
-<h4 class="date"><em>September 14, 2019</em></h4>
+<h4 class="author"><a href="mailto:peter.euclide@uwsp.edu" class="email">peter.euclide@uwsp.edu</a></h4>
+<h4 class="date">September 14, 2019</h4>
 
 </div>
 
@@ -237,35 +333,37 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div class="col-xs-12 col-sm-9 text-left">
 <p><br/></p>
 <hr />
-<h2 id="education"><strong>EDUCATION</strong></h2>
+<h2 id="education">EDUCATION</h2>
 <hr />
-<h3 id="university-of-vermont-burlington-vt"><strong>University of Vermont</strong>, Burlington, VT </br></h3>
+<h3 id="university-of-vermont-burlington-vt">University of Vermont , Burlington, VT </br></h3>
 <ul>
-<li>2018 - <strong>Ph.D in Biology</strong>; </br> Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont </br> Advisor: J. Ellen Marsden</br></br></li>
+<li>2018 - <strong>Ph.D. in Biology</strong>; </br> Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont </br> Advisor: J. Ellen Marsden</br></br></li>
 <li>2015 - <strong>M.Sc. in Natural Resources (Aquatic Ecology and Watershed Science)</strong> </br> M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, <em>Mysis diluviana</em>, in Lake Champlain.</br> Advisor: Jason D. Stockwell</br></br></li>
 </ul>
-<h3 id="kent-state-university-kent-oh"><strong>Kent State University</strong>, Kent, OH</br></h3>
+<h3 id="kent-state-university-kent-oh">Kent State University, Kent, OH</br></h3>
 <ul>
 <li>2012 - <strong>BS in Organismal Biology</strong></br></li>
 </ul>
 <hr />
-<h2 id="publications"><strong>PUBLICATIONS</strong></h2>
+<h2 id="publications">PUBLICATIONS</h2>
 <div itemscope="" itemtype="https://schema.org/Person">
 <a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a>
 </div>
 <hr />
-<p><strong>Euclide, PT</strong>, Kilpatrick, CW, Marsden, JE. In Press. Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lake Research.</p>
-<p><strong>Euclide, PT</strong>, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. In Press. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087">Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.</a> Molecular Ecology Resources.</p>
-<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, <em>Perca flavescens</em>.(<a href="https://www.biorxiv.org/content/10.1101/717397v1" class="uri">https://www.biorxiv.org/content/10.1101/717397v1</a>) <em>BioRxiv</em>:1–22.]</p>
+<p><strong>Euclide, PT</strong>, Pientka, B, Marsden, JE. In Press. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Journal of Great Lakes Research.</p>
+<p><strong>Euclide, PT</strong>, Kilpatrick, CW, Marsden, JE. 2019. Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lake Research.</p>
+<p><strong>Euclide, PT</strong>, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087">Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.</a> Molecular Ecology Resources.</p>
+<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, <em>Perca flavescens</em>. Molecular Ecology Resources. (<a href="https://www.biorxiv.org/content/10.1101/717397v1" class="uri">https://www.biorxiv.org/content/10.1101/717397v1</a>) <em>BioRxiv</em>:1–22.]</p>
 <p><strong>Euclide, PT</strong>, Marsden, JE. 2018. <a href="https://link.springer.com/article/10.1007/s10592-018-1107-2">Role of drainage and barriers in the genetic structuring of a tessellated darter population. Conservation Genetics</a>. 19: 1379-1392.</p>
 <p>Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, <strong>Euclide, PT</strong>, Balcerd, MD. 2018. <a href="https://linkinghub.elsevier.com/retrieve/pii/S0380133018300492">Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016</a>. <em>Journal of Great Lakes Research</em>. 44: 590-599</p>
 <p><strong>Euclide, PT</strong>, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. <a href="pdfs/euclide%20et%20al%202017%20b.pdf">Lack of population genetic structure of slimy sculpin in a large, fragmented lake</a>. <em>Ecology of Freshwater Fish</em>. 27: 699-709.</p>
 <p><strong>Euclide, PT</strong>, Hansson, S, Stockwell, JD. 2016. <a href="pdfs/Euclide%20et%20al%202017.pdf">Partial diel vertical migration in an omnivorous macroinvertebrate, Mysis diluviana.</a> <em>Hydrobiologia</em>. <a href="doi:10.1007/s10750-016-2982-5" class="uri">doi:10.1007/s10750-016-2982-5</a>. 787: 387-396.</p>
 <p><strong>Euclide, PT</strong>, Stockwell, JD. 2015. <a href="pdfs/Euclide%20and%20Stockwell%202015.pdf">Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.</a> <em>Journal of Great Lake Research</em>. 41: 926-929.</p>
 <hr />
-<h2 id="reaearch-presentations"><strong>REAEARCH PRESENTATIONS</strong></h2>
+<h2 id="selected-reaearch-presentations">SELECTED REAEARCH PRESENTATIONS</h2>
 <hr />
 <p>(Presenter bolded)</p>
+<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada. <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Bootsma, M, Meek, M, McKinney, G, Larson, W 2019. Attack of the clones The influence of PCR clones on RAD-seq genotype calls. International Association of Great Lakes Research. Brockport, New York. <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Ruzich, J, Hansen, S, Rowe, D, Zorn, T, Larson, W 2019. Population genetic structure of smallmouth bass in inland Wisconsin and Lake Michigan. Wisconsin American Fisheries Society. Greenbay Wisconsin. <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Larson, W 2018. The current state of walleye genomic research in Lake Erie. Lake Erie -Inland Waters Annual Review. Columbus Ohio. <em>[oral presentation]</em></p>
@@ -280,85 +378,89 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of <em>Mysis diluviana</em>. University of Vermont Student Research Conference, Vermont <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of <em>Mysis diluviana</em>. 2013 Lake Champlain Research Consortium Student Symposium <em>[oral presentation]</em></p>
 <hr />
-<h2 id="invited-talks"><strong>INVITED TALKS</strong></h2>
+<h2 id="invited-talks">INVITED TALKS</h2>
 <hr />
 <p>(Presenter bolded)</p>
+<p><strong>Euclide, PT</strong>, 2019. 23andMe for smallmouth bass: Using genetics to identify genetic differences among populations. Smallmouth Bass Public Meeting, Sturgeon Bay, WI</p>
 <p><strong>Euclide, PT</strong>, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT</p>
 <hr />
-<h2 id="data-publications"><strong>DATA PUBLICATIONS</strong></h2>
+<h2 id="data-publications">DATA PUBLICATIONS</h2>
 <hr />
 <ul>
 <li><p>Lake Champlain Mysis Stable Isotopes. <a href="https://knb.ecoinformatics.org/#view/knb.749.1">KNB.</a></p></li>
 <li><p>Mysis Density in North America. <a href="https://peter-euclide.shinyapps.io/Mysis_density_app/">RShiny.</a></p></li>
 </ul>
 <hr />
-<h2 id="grants-and-awards"><strong>GRANTS and AWARDS</strong></h2>
+<h2 id="grants-and-awards">GRANTS and AWARDS</h2>
 <hr />
+<p><strong>2018 – Pres.</strong> Using genomics to delineate stock structure and create a standardized genetic resource for great lakes walleye. Great Lakes Fishery Commission (co-author): $195,670</p>
+<p><strong>2016 – 2017</strong> Quantifying the consequences of water quality changes and habitat fragmentation on the genetic structure of aquatic organisms in the Lake Champlain basin. Water Resources Research Grant (primary author): $10,000</p>
+<p><strong>2014</strong> ASLO Student Travel Grant (primary author): $500</p>
+<p><strong>2014 – 2015</strong> Sub-lethal consequences of blue-green algae on nutrition and fitness in secondary consumers. Lintilhac Foundation Research Grant (primary author): $10,000</p>
+<p><strong>2013</strong> Graduate Student Senate Travel Grant (primary author): $300</p>
+<p><strong>2012, 2013</strong> Rubenstein School Graduate Student Association Mini-Grant (primary author): $200</p>
+<hr />
+<h2 id="research-and-profesional-experience">RESEARCH and PROFESIONAL EXPERIENCE</h2>
+<hr />
+<h3 id="workshops-attended">Workshops Attended:</h3>
 <ul>
-<li><p><strong>Water Resources Research Grant:</strong> $10,000, <em>2016</em></p></li>
-<li><p><strong>ASLO Student Travel Grant:</strong> $500, <em>2014</em></p></li>
-<li><p><strong>Lintilhac Foundation Research Grant:</strong> $10,000, <em>2014</em></p></li>
-<li><p><strong>Graduate Student Senate Travel Grant:</strong> $300, <em>2013</em></p></li>
-<li><p><strong>Rubenstein Graduate Student Association Mini-Grant:</strong> $200, <em>2012 and 2013</em></p></li>
+<li><p>Physalia: Genome Assembly Using Oxford Nanopore Sequencing - <em>2020</em></p></li>
+<li><p>GLFC Sculpin in the Great Lakes workshop - <em>2017; 2018</em></p></li>
+<li><p>Structured Decision-Making and Barrier Removals - <em>2016</em></p></li>
+<li><p>FishR Workshop for Analyzing Fisheries Data - <em>2014</em></p></li>
 </ul>
-<hr />
-<h2 id="research-and-profesional-experience"><strong>RESEARCH and PROFESIONAL EXPERIENCE</strong></h2>
-<hr />
-<h3 id="workshops"><strong>Workshops:</strong></h3>
+<h3 id="workshops-facilitated">Workshops Facilitated:</h3>
 <ul>
-<li><p>GLFC Sculpin in the Great Lakes workshop - <em>Spring 2017</em></p></li>
-<li><p>Structured Decision-Making and Barrier Removals - <em>Fall 2016</em></p></li>
-<li><p>FishR Workshop for Analyzing Fisheries Data - <em>Spring 2014</em></p></li>
+<li><p>R-Expo, American Fisheries Society - Wisconsin Chapter <em>2020</em></p></li>
+<li><p>Champlain Research Experience for Students and Teachers (CREST) Workshop: <em>Summers, 2014 - 2016</em>, University of Vermont</p></li>
+<li><p>Communicating Science, REU Workshop: <em>Summers 2014 &amp; 2015</em>, University of Vermont</p></li>
 </ul>
-<h3 id="manuscripts-reviewed-for"><strong>Manuscripts reviewed for:</strong></h3>
-<p>Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (1), Journal of Fish Biology (1)</p>
-<h3 id="academic-research-technician"><strong>Academic research technician:</strong></h3>
+<h3 id="manuscripts-reviewed-for">Manuscripts reviewed for:</h3>
+<p>Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (2), Journal of Fish Biology (1), Ecology and Evolution (1), Genes (1)</p>
+<h3 id="academic-research-technician">Academic research technician:</h3>
 <ul>
 <li><p>Population genetics and the evolution of variable sex ratios in populations of <em>Lobelia siphilitica</em>. <em>2011-2012</em></p></li>
 <li><p>Bacterial community composition and colonization of crayfish in North Eastern Ohio streams. <em>2010</em></p></li>
 </ul>
-<h3 id="industry-technician"><strong>Industry technician:</strong></h3>
+<h3 id="industry-technician">Industry technician:</h3>
 <ul>
 <li>Collection and husbandry of milfoil weevil as a biological control for <em>Eurasian milfoil</em>, EnviroScience Inc. <em>2009</em></li>
 </ul>
-<h3 id="volunteer-undergraduate-research"><strong>Volunteer undergraduate research:</strong></h3>
+<h3 id="volunteer-undergraduate-research">Volunteer undergraduate research:</h3>
 <ul>
 <li><p>Winter decomposition rates of forest leaf litter associated with fungal and invertebrate diversity. <em>2012</em></p></li>
 <li><p>Macroinvertebrate communities of stream different types of stream leaf packs. <em>2009 - 2012</em></p></li>
 </ul>
 <hr />
-<h2 id="teaching"><strong>TEACHING</strong></h2>
+<h2 id="outreach-and-teaching">OUTREACH and TEACHING</h2>
 <hr />
-<h4 id="champlain-research-experience-for-students-and-teachers-crest-workshop"><strong>Champlain Research Experience for Students and Teachers (CREST) Workshop:</strong></h4>
-<p><em>Summers, 2014 - 2016</em>, University of Vermont</p>
-<h4 id="guest-lectures-conservation-biology"><strong>Guest lectures, Conservation Biology:</strong></h4>
+<h4 id="radio-interview-with-door-county-fishing-report-outdoors-show-2019">Radio interview with Door County Fishing Report / Outdoors Show <em>2019</em></h4>
+<h4 id="guest-lectures-conservation-biology">Guest lectures, Conservation Biology:</h4>
 <p><em>Spring 2016</em>, University of Vermont</p>
-<h4 id="communicating-science-reu-workshop"><strong>Communicating Science, REU Workshop:</strong></h4>
-<p><em>Summers 2014 &amp; 2015</em>, University of Vermont</p>
-<h4 id="echo-lake-aquarium-educator-fellowship"><strong>ECHO Lake Aquarium Educator Fellowship:</strong></h4>
+<h4 id="echo-lake-aquarium-educator-fellowship">ECHO Lake Aquarium Educator Fellowship:</h4>
 <p><em>2013 - 2014</em>, University of Vermont and ECHO Lake Aquarium and Science Center.</p>
-<h4 id="teaching-assistantships"><strong>Teaching Assistantships:</strong></h4>
+<h4 id="teaching-assistantships">Teaching Assistantships:</h4>
 <ul>
 <li><p><strong>Ecosystem Management</strong>, <em>Spring 2014</em>, University of Vermont.</p></li>
 <li><p><strong>Limnology</strong>, <em>Fall 2012 &amp; 2013</em>, University of Vermont.</p></li>
 <li><p><strong>Ecology, Ecosystems and Environment</strong>, <em>Spring 2013</em>, University of Vermont</p></li>
 </ul>
 <hr />
-<h2 id="skills"><strong>SKILLS</strong></h2>
+<h2 id="skills">SKILLS</h2>
 <hr />
-<h3 id="field"><strong>Field:</strong></h3>
+<h3 id="field">Field:</h3>
 <ul>
 <li><p><strong>Fisheries:</strong> Fyke netting, gill netting, beach seineing, bottom trawling, electrofishing</p></li>
 <li><p><strong>Limnology:</strong> Plankton nets, niskin bottles, Schindler-Patalas traps, CTD</p></li>
 <li><p><strong>Taxanomic:</strong> Basic fish, zooplankton and insect identification</p></li>
 </ul>
-<h3 id="computer"><strong>Computer:</strong></h3>
+<h3 id="computer">Computer:</h3>
 <ul>
 <li><p><strong>Graphing:</strong> R, GGPlot, Excel, and Prism</p></li>
 <li><p><strong>Statistical analysis:</strong> R, JMP, SPSS, STRUCTURE, Arlequin, ADMIXTURE, NeEstimator, FSTAT, Microchecker and other population genetic analysis</p></li>
 <li><p><strong>App and Web development:</strong> RShiny, RMarkdown, GitPages</p></li>
 </ul>
-<h3 id="laboratory"><strong>Laboratory:</strong></h3>
+<h3 id="laboratory">Laboratory:</h3>
 <ul>
 <li><p><strong>Genetic:</strong> PCR, gel electrophoresis, microsatellite analysis, DNA extractions using DNEasy kit, Gentra PurGene kit, and chelex.</p></li>
 <li><p><strong>Stable isotope:</strong> analysis and sample preparation</p></li>
@@ -368,7 +470,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <li><p><strong>Greenhouse:</strong> plant germination and care, green house maintenance and pest control</p></li>
 </ul>
 <hr />
-<h2 id="additional-resources"><strong>ADDITIONAL RESOURCES:</strong></h2>
+<h2 id="additional-resources">ADDITIONAL RESOURCES:</h2>
 <hr />
 <ul>
 <li><p><a href="https://www.researchgate.net/profile/Peter_Euclide">Researchgate</a></p></li>
@@ -397,12 +499,29 @@ $(document).ready(function () {
 
 </script>
 
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

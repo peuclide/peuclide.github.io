@@ -36,10 +36,14 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <br/>
 
 ***
-##__EDUCATION__
+
+## EDUCATION
+
 ***
-###__University of Vermont__, Burlington, VT </br>
-- 2018 - __Ph.D in Biology__; </br>
+
+### University of Vermont , Burlington, VT </br>
+
+- 2018 - __Ph.D. in Biology__; </br>
     Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
 </br>
     Advisor: J. Ellen Marsden</br></br>
@@ -47,21 +51,25 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
     M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, _Mysis diluviana_, in Lake Champlain.</br>
     Advisor: Jason D. Stockwell</br></br>
     
-###__Kent State University__, Kent, OH</br>
+### Kent State University, Kent, OH</br>
+
 -  2012 - __BS in Organismal Biology__</br>
 
 ***
-##__PUBLICATIONS__
+
+## PUBLICATIONS
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
 
 ***
 
-__Euclide, PT__, Kilpatrick, CW, Marsden, JE. In Press. Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lake Research.
+__Euclide, PT__, Pientka, B, Marsden, JE. In Press. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Journal of Great Lakes Research.
 
-__Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. In Press. [Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087) Molecular Ecology Resources.  
+__Euclide, PT__, Kilpatrick, CW, Marsden, JE. 2019. Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lake Research.
 
-Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_.(https://www.biorxiv.org/content/10.1101/717397v1) _BioRxiv_:1–22.]
+__Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. [Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087) Molecular Ecology Resources.  
+
+Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_. Molecular Ecology Resources. (https://www.biorxiv.org/content/10.1101/717397v1) _BioRxiv_:1–22.]
 
 __Euclide, PT__, Marsden, JE. 2018. [Role of drainage and barriers in the genetic structuring of a tessellated darter population. Conservation Genetics](https://link.springer.com/article/10.1007/s10592-018-1107-2). 19: 1379-1392.
 
@@ -74,9 +82,11 @@ __Euclide, PT__, Hansson, S, Stockwell, JD. 2016. [Partial diel vertical migrati
 __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.](pdfs/Euclide and Stockwell 2015.pdf) _Journal of Great Lake Research_. 41: 926-929.
 
 ***
-##__REAEARCH PRESENTATIONS__
+## SELECTED REAEARCH PRESENTATIONS
 ***
 (Presenter bolded)
+
+__Euclide, PT__, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada. _[oral presentation]_
 
 __Euclide, PT__, Bootsma, M, Meek, M, McKinney, G, Larson, W 2019. Attack of the clones The influence of PCR clones on RAD-seq genotype calls. International Association of Great Lakes Research. Brockport, New York. _[oral presentation]_
 
@@ -105,14 +115,16 @@ __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel verti
 __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of _Mysis diluviana_. 2013 Lake Champlain Research Consortium Student Symposium _[oral presentation]_
 
 ***
-##__INVITED TALKS__
+## INVITED TALKS
 ***
 (Presenter bolded)
+
+__Euclide, PT__, 2019. 23andMe for smallmouth bass: Using genetics to identify genetic differences among populations. Smallmouth Bass Public Meeting, Sturgeon Bay, WI
 
 __Euclide, PT__, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT
 
 ***
-##__DATA PUBLICATIONS__
+## DATA PUBLICATIONS
 ***
 
 - Lake Champlain Mysis Stable Isotopes. [KNB.](https://knb.ecoinformatics.org/#view/knb.749.1)
@@ -120,65 +132,77 @@ __Euclide, PT__, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain 
 - Mysis Density in North America. [RShiny.](https://peter-euclide.shinyapps.io/Mysis_density_app/)
 
 ***
-##__GRANTS and AWARDS__
+## GRANTS and AWARDS
 ***
-- __Water Resources Research Grant:__ $10,000, _2016_
 
-- __ASLO Student Travel Grant:__ $500, _2014_
+__2018 – Pres.__	Using genomics to delineate stock structure and create a standardized genetic resource for great lakes walleye. Great Lakes Fishery Commission (co-author): $195,670
 
-- __Lintilhac Foundation Research Grant:__ $10,000, _2014_
+__2016 – 2017__	Quantifying the consequences of water quality changes and habitat fragmentation on the genetic structure of aquatic organisms in the Lake Champlain basin. Water Resources Research Grant (primary author): $10,000
 
-- __Graduate Student Senate Travel Grant:__ $300, _2013_
+__2014__		ASLO Student Travel Grant (primary author): $500
 
-- __Rubenstein Graduate Student Association Mini-Grant:__ $200, _2012 and 2013_
+__2014 – 2015__	Sub-lethal consequences of blue-green algae on nutrition and fitness in secondary consumers. Lintilhac Foundation Research Grant (primary author): $10,000
+
+__2013__		Graduate Student Senate Travel Grant (primary author): $300
+
+__2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primary author): $200
+
 
 ***
-##__RESEARCH and PROFESIONAL EXPERIENCE__
+## RESEARCH and PROFESIONAL EXPERIENCE
 ***
-###__Workshops:__
 
-- GLFC Sculpin in the Great Lakes workshop - _Spring 2017_
+### Workshops Attended:
 
-- Structured Decision-Making and Barrier Removals - _Fall 2016_
+- Physalia: Genome Assembly Using Oxford Nanopore Sequencing - _2020_
 
-- FishR Workshop for Analyzing Fisheries Data - _Spring 2014_
+- GLFC Sculpin in the Great Lakes workshop - _2017; 2018_
 
-###__Manuscripts reviewed for:__
+- Structured Decision-Making and Barrier Removals - _2016_
 
- Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (1), Journal of Fish Biology (1)
+- FishR Workshop for Analyzing Fisheries Data - _2014_
 
-###__Academic research technician:__
+### Workshops Facilitated:
+
+- R-Expo, American Fisheries Society - Wisconsin Chapter _2020_
+
+- Champlain Research Experience for Students and Teachers (CREST) Workshop: _Summers, 2014 - 2016_, University of Vermont
+
+- Communicating Science, REU Workshop: _Summers 2014 & 2015_, University of Vermont
+
+### Manuscripts reviewed for:
+
+ Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (2), Journal of Fish Biology (1), Ecology and Evolution (1), Genes (1)
+
+### Academic research technician:
 
 - Population genetics and the evolution of variable sex ratios in populations of _Lobelia siphilitica_. _2011-2012_
 
 - Bacterial community composition and colonization of crayfish in North Eastern Ohio streams. _2010_
 
-###__Industry technician:__
+### Industry technician:
 
 -	Collection and husbandry of milfoil weevil as a biological control for _Eurasian milfoil_, EnviroScience Inc. _2009_
 
-###__Volunteer undergraduate research:__
+### Volunteer undergraduate research:
 
 -	Winter decomposition rates of forest leaf litter associated with fungal and invertebrate diversity. _2012_
 
 -	Macroinvertebrate communities of stream different types of stream leaf packs. _2009 - 2012_
 
 ***
-##__TEACHING__
+## OUTREACH and TEACHING
 ***
-####__Champlain Research Experience for Students and Teachers (CREST) Workshop:__ 
-_Summers, 2014 - 2016_, University of Vermont
 
-####__Guest lectures, Conservation Biology:__ 
+#### Radio interview with Door County Fishing Report / Outdoors Show _2019_
+
+#### Guest lectures, Conservation Biology: 
 _Spring 2016_, University of Vermont
 
-####__Communicating Science, REU Workshop:__
-_Summers 2014 & 2015_, University of Vermont
-
-####__ECHO Lake Aquarium Educator Fellowship:__
+#### ECHO Lake Aquarium Educator Fellowship:
 _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 
-####__Teaching Assistantships:__
+#### Teaching Assistantships:
 
 - __Ecosystem Management__, _Spring 2014_, University of Vermont.
 
@@ -187,17 +211,17 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 -	__Ecology, Ecosystems and Environment__, _Spring 2013_, University of Vermont
 
 ***
-##__SKILLS__
+## SKILLS
 ***
 
-###__Field:__ 
+### Field: 
 - __Fisheries:__ Fyke netting, gill netting, beach seineing, bottom trawling, electrofishing 
 
 - __Limnology:__ Plankton nets, niskin bottles, Schindler-Patalas traps, CTD
 
 - __Taxanomic:__ Basic fish, zooplankton and insect identification
 
-###__Computer:__
+### Computer:
 - __Graphing:__ R, GGPlot, Excel, and Prism
 
 - __Statistical analysis:__ R, JMP, SPSS, STRUCTURE, Arlequin, ADMIXTURE, NeEstimator, FSTAT, Microchecker and other population genetic analysis
@@ -205,7 +229,7 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 - __App and Web development:__ RShiny, RMarkdown, GitPages
 
 
-###__Laboratory:__
+### Laboratory:
 
 - __Genetic:__ PCR, gel electrophoresis, microsatellite analysis, DNA extractions using DNEasy kit, Gentra PurGene kit, and chelex.
 
@@ -222,7 +246,7 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 
 
 ***
-##__ADDITIONAL RESOURCES:__
+## ADDITIONAL RESOURCES:
 ***
 
 - [Researchgate](https://www.researchgate.net/profile/Peter_Euclide)

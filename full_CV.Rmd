@@ -26,17 +26,15 @@ toc: true
 
 ***
 
-Chen, K, __Euclide, PE__, Gibbs, LH, Larson, W, Marschall, EA, Sovic, MG, Ludsin, SA. In Review. Population assignment of Lake Erie walleye spawning stocks using RADseq 
+__Euclide, PT__, Pientka, B, Marsden, JE. In Press. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Journal of Great Lakes Research
 
-__Euclide, PE__, Kilpatrick, CW, Marsden, JE. In Review. Genetic structure of lake whitefish (_Coregonus clupeaformis_) in Lake Champlain, Vermont 100 years after commercial fishery closure.
+__Euclide, PT__, Kilpatrick, CW, Marsden, JE. 2019. Genetic structure of lake whitefish (_Coregonus clupeaformis_) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lakes Research
 
-Gearhart, TG, __Euclide, PT__, Kraft, J, Stockwell, JD. In Prep. Essential fatty acid deficient diets have immediate impacts on physiology and composition of zebrafish (Danio rario).
+Feron, R, Zahm, M, Cabau, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, Perca flavescens. Molecular Ecology Resources.
 
-__Euclide, PE__, Pientka, B, Marsden, JE. In Revision. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Transactions of the American Fisheries Society
+Chen, K, __Euclide, PT__, Gibbs, LH, Larson, W, Marschall, EA, Sovic, MG, Ludsin, SA. 2019. Population assignment of Lake Erie walleye spawning stocks using RADseq 
 
-__Euclide, PE__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. Accepted. Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls. Molecular Ecology Resources.  
-
-Feron, R., M. Zahm, C. Cabau, C. Klopp, C. Roques, O. Bouchex, C. Eche, S. Valiere, C. Donnadieu, P. Haffray, A. Bestin, R. Morvezen, H. Acloque, __Euclide, PT__, M. Wen, E. Jouano, M. Schartl, J. H. Postlethwait, C. Schraidt, M. R. Christie, W. A. Larson, A. Herpin, and Y. Guiguen. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_. _BioRxiv_:1–22.](https://www.biorxiv.org/content/10.1101/717397v1)
+__Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls. Molecular Ecology Resources.  
 
 Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. 2018. Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016. _Journal of Great Lakes Research_
 
@@ -46,4 +44,4 @@ __Euclide, PT__, Hansson, S, Stockwell, JD. 2016. [Partial diel vertical migrati
 
 __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.](pdfs/Euclide and Stockwell 2015.pdf) _Journal of Great Lake Research_. 41: 926-929.
 
-
+Gearhart, TG, __Euclide, PT__, Kraft, J, Stockwell, JD. In Prep. Essential fatty acid deficient diets have immediate impacts on physiology and composition of zebrafish (Danio rario).

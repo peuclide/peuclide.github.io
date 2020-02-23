@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>__ __</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -68,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,13 +84,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -106,7 +111,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -126,6 +130,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -147,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -203,7 +299,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><hr /></h1>
+<h1 class="title toc-ignore">__ __</h1>
 
 </div>
 
@@ -214,8 +310,7 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="echo-science-translation-fellowship"><strong>ECHO Science Translation Fellowship</strong></h1>
-<hr />
+<p>#<strong>ECHO Science Translation Fellowship</strong> ***</p>
 <p>In 2013 I worked with the <a href="http://www.echovermont.org/">ECHO Lake Aquarium and Science Center</a> for a year as the science-education fellow to create a symbiotic relationship between ECHO and the <a href="http://www.uvm.edu/~ecolab/">Rubenstein Ecosystem Science Laboratory</a>. The goal of my fellowship was to facilitate a relationship where ECHO can benefit from the knowledge and expertise of RSENR researchers while we can benefit from the educational expertise and outreach capacity of ECHO.</p>
 </div>
 <div class="col-xs-12 col-sm-5">
@@ -228,14 +323,12 @@ $(document).ready(function () {
 <br/>
 <div class="row">
 <div class="col-xs-12 col-sm-5">
-<p><br/><br/> <img src="photos/c2.jpg" style="width:150px;"margin-bottom: 2em align = "top"/> <img src="photos/c1.jpg" style="width:150px;"margin-bottom: 2em align = "top"/><br/><br/> <img src="photos/c3.jpg" style="width:150px;"margin-bottom: 2em align = "top"/> <img src="photos/c4.jpg" style="width:150px;"margin-bottom: 2em align = "top"/></p>
+<p><br/><br/> &lt;img src=“photos/c2.jpg” style=“width:150px;”margin-bottom: 2em align = “top”/&gt; &lt;img src=“photos/c1.jpg” style=“width:150px;”margin-bottom: 2em align = “top”/&gt;<br/><br/> &lt;img src=“photos/c3.jpg” style=“width:150px;”margin-bottom: 2em align = “top”/&gt; &lt;img src=“photos/c4.jpg” style=“width:150px;”margin-bottom: 2em align = “top”/&gt;</p>
 </div>
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="crest-teacher-workshop"><strong>CREST teacher workshop</strong></h1>
-<hr />
-The <a href="https://vctm.wildapricot.org/event-2545166">Champlain Research Experience for Secondary Teachers (CREST)</a> Professional Development Program is a summer workshop that gives 7-12th grade teachers the opportunity to partake in hands on research with professors, udergraduate and graduate students at the University of Vermont. For three years, I worked as the graduate assistant for the CREST program helping plan and facilitate the week-long workshop.
+#<strong>CREST teacher workshop</strong> *** The <a href="https://vctm.wildapricot.org/event-2545166">Champlain Research Experience for Secondary Teachers (CREST)</a> Professional Development Program is a summer workshop that gives 7-12th grade teachers the opportunity to partake in hands on research with professors, udergraduate and graduate students at the University of Vermont. For three years, I worked as the graduate assistant for the CREST program helping plan and facilitate the week-long workshop.
 </div>
 </div>
 <hr />
@@ -243,7 +336,7 @@ The <a href="https://vctm.wildapricot.org/event-2545166">Champlain Research Expe
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="teaching-assistant-university-of-vermont"><strong>Teaching Assistant University of Vermont</strong></h1>
+<p>#<strong>Teaching Assistant University of Vermont</strong></p>
 <hr />
 <ul>
 <li>Guest lecturer Conservation Biology, 2015</li>
@@ -258,7 +351,7 @@ The <a href="https://vctm.wildapricot.org/event-2545166">Champlain Research Expe
 </div>
 </div>
 <hr />
-<p>Contact me: <a href="mailto:peter.euclide@uwsp.edu">peter.euclide@uwsp.edu</a></p>
+<p>Contact me: <a href="mailto:peter.euclide@uwsp.edu" class="email">peter.euclide@uwsp.edu</a></p>
 
 
 
@@ -278,12 +371,29 @@ $(document).ready(function () {
 
 </script>
 
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
