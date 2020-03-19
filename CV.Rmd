@@ -63,11 +63,11 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 
-__Euclide, PT__, Pientka, B, Marsden, JE. In Press. Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake. Journal of Great Lakes Research.
+__Euclide, PT__, Pientka, B, Marsden, JE. In 2020. [Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake](https://doi.org/10.1016/j.jglr.2020.02.009). _Journal of Great Lakes Research_.
 
-__Euclide, PT__, Kilpatrick, CW, Marsden, JE. 2019. Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure. Journal of Great Lake Research.
+__Euclide, PT__, Kilpatrick, CW, Marsden, JE. 2019. [Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure](https://doi.org/10.1016/j.jglr.2019.09.010). _Journal of Great Lake Research_.
 
-__Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. [Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087) Molecular Ecology Resources.  
+__Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. [Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087) _Molecular Ecology Resources_.  
 
 Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_. Molecular Ecology Resources. (https://www.biorxiv.org/content/10.1101/717397v1) _BioRxiv_:1–22.]
 
