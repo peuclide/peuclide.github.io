@@ -39,13 +39,14 @@ leaflet() %>%
                     icon = icon.walleye, 
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
-                    popup= paste(sep = "<br/>","Euclide et al. in prep", "Chen et al. in prep")) %>%
+                    popup= paste(sep = "<br/>","Euclide et al. in prep", 
+                                 "<b><a href='https://doi.org/10.1002/tafs.10215'>Chen et al. 2019</a></b>")) %>%
   addAwesomeMarkers(data = sites[sites$species == "smallmouth bass",], 
                     group = "smallmouth bass", 
                     icon = icon.smallmouth, 
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
-                    popup= "") %>%
+                    popup= "Euclide et al. in review") %>%
   addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
                     group = "tessellated darters",
                     icon = icon.darter,
@@ -63,7 +64,7 @@ leaflet() %>%
                     icon = icon.smelt,
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
-                    popup= "Euclide et al. in prep")%>%
+                    popup= '<b><a href="https://doi.org/10.1016/j.jglr.2020.02.009">Euclide et al. 2020</a></b>')%>%
   addAwesomeMarkers(data = sites[sites$species == "mysis",], 
                     group = "mysis", 
                     icon = icon.mysis, 
@@ -77,16 +78,16 @@ leaflet() %>%
                     icon = icon.whitefish, 
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
-                    popup= "Euclide et al. in prep") %>%
+                    popup= "<b><a href='https://doi.org/10.1016/j.jglr.2019.09.010'>Euclide et al. 2019</a></b>") %>%
   addLayersControl(
-    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish" ),
-    options = layersControlOptions(collapsed = FALSE), position = "topleft"
+    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish", "smallmouth bass" ),
+    options = layersControlOptions(collapsed = FALSE), position = "topright"
   )
 
  
  
 
- 
+
  
 ```
 
