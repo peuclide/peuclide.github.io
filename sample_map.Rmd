@@ -30,6 +30,7 @@ icon.smelt <- makeAwesomeIcon(icon = 'flag', markerColor = 'orange', iconColor =
 icon.mysis <- makeAwesomeIcon(icon = 'flag', markerColor = 'cadetblue', iconColor = 'black')
 icon.whitefish <- makeAwesomeIcon(icon = 'flag', markerColor = 'white', iconColor = 'black')
 icon.smallmouth <- makeAwesomeIcon(icon = 'flag', markerColor = 'black', iconColor = 'red')
+icon.sockeye <- makeAwesomeIcon(icon = 'flag', markerColor = 'firebrick', iconColor = 'black')
 
 
 leaflet() %>% 
@@ -40,13 +41,13 @@ leaflet() %>%
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
                     popup= paste(sep = "<br/>","Euclide et al. in prep", 
-                                 "<b><a href='https://doi.org/10.1002/tafs.10215'>Chen et al. 2019</a></b>")) %>%
+                                 "<b><a href='https://doi.org/10.1002/tafs.10215'>Chen et al. 2020</a></b>")) %>%
   addAwesomeMarkers(data = sites[sites$species == "smallmouth bass",], 
                     group = "smallmouth bass", 
                     icon = icon.smallmouth, 
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
-                    popup= "Euclide et al. in review") %>%
+                    popup= "<b><a href='https://afspubs.onlinelibrary.wiley.com/doi/abs/10.1002/tafs.10238'>Euclide et al. 2020</a></b>") %>%
   addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
                     group = "tessellated darters",
                     icon = icon.darter,
@@ -79,8 +80,15 @@ leaflet() %>%
                     label = ~as.character(species), 
                     clusterOptions = markerClusterOptions(),
                     popup= "<b><a href='https://doi.org/10.1016/j.jglr.2019.09.010'>Euclide et al. 2019</a></b>") %>%
+  addAwesomeMarkers(data = sites[sites$species == "sockeye salmon",], 
+                    group = "sockeye salmon", 
+                    icon = icon.sockeye, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= "in progress research") %>%
   addLayersControl(
-    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish", "smallmouth bass" ),
+    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish", "smallmouth bass", 
+                      "sockeye salmon"),
     options = layersControlOptions(collapsed = FALSE), position = "topright"
   )
 

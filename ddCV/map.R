@@ -1,0 +1,78 @@
+library(leaflet)
+library(rgdal)
+library(dataRetrieval)
+
+# grp <- c("USGS Topo", "USGS Imagery Only", "USGS Imagery Topo",
+#          "USGS Shaded Relief", "Hydrography")
+# 
+# att <- paste0("<a href='https://www.usgs.gov/'>",
+#               "U.S. Geological Survey</a> | ",
+#               "<a href='https://www.usgs.gov/laws/policies_notices.html'>",
+#               "Policies</a>")
+# GetURL <- function(service, host = "basemap.nationalmap.gov") {
+#   sprintf("https://%s/arcgis/services/%s/MapServer/WmsServer", host, service)
+# }
+
+sites <- read.csv("../sample_coords.csv")
+# create specific icon for every type of point
+icon.walleye <- makeAwesomeIcon(icon= 'flag', markerColor = 'blue', iconColor = 'black')
+icon.darter <- makeAwesomeIcon(icon = 'flag', markerColor = 'red', iconColor = 'black')
+icon.sculpin <- makeAwesomeIcon(icon = 'flag', markerColor = 'green', iconColor = 'black')
+icon.smelt <- makeAwesomeIcon(icon = 'flag', markerColor = 'orange', iconColor = 'black')
+icon.mysis <- makeAwesomeIcon(icon = 'flag', markerColor = 'cadetblue', iconColor = 'black')
+icon.whitefish <- makeAwesomeIcon(icon = 'flag', markerColor = 'white', iconColor = 'black')
+icon.smallmouth <- makeAwesomeIcon(icon = 'flag', markerColor = 'black', iconColor = 'red')
+
+
+leaflet() %>% 
+  addTiles() %>%
+  addAwesomeMarkers(data = sites[sites$species == "walleye",], 
+                    group = "walleye", 
+                    icon = icon.walleye, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= paste(sep = "<br/>","Euclide et al. in prep", 
+                                 "<b><a href='https://doi.org/10.1002/tafs.10215'>Chen et al. 2019</a></b>")) %>%
+  addAwesomeMarkers(data = sites[sites$species == "smallmouth bass",], 
+                    group = "smallmouth bass", 
+                    icon = icon.smallmouth, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= "Euclide et al. in review") %>%
+  addAwesomeMarkers(data = sites[sites$species == "tessellated darters",], 
+                    group = "tessellated darters",
+                    icon = icon.darter,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup='<b><a href="https://doi.org/10.1007/s10592-018-1107-2">Euclide & Marsden 2018</a></b>')%>%
+  addAwesomeMarkers(data = sites[sites$species == "slimy sculpin",], 
+                    group = "slimy sculpin",
+                    icon = icon.sculpin,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup='<b><a href="https://doi.org/10.1111/eff.12385">Euclide et al. 2017</a></b>')%>%
+  addAwesomeMarkers(data = sites[sites$species == "rainbow smelt",], 
+                    group = "rainbow smelt",
+                    icon = icon.smelt,
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= '<b><a href="https://doi.org/10.1016/j.jglr.2020.02.009">Euclide et al. 2020</a></b>')%>%
+  addAwesomeMarkers(data = sites[sites$species == "mysis",], 
+                    group = "mysis", 
+                    icon = icon.mysis, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= paste(sep = "<br/>",
+                                 "<b><a href='10.1007/s10750-016-2982-5'>Euclide et al. 2017</a></b>",
+                                 "<b><a href='https://doi.org/10.1016/j.jglr.2015.05.002'>Euclide & Stockwell 2015</a></b>")) %>%
+  addAwesomeMarkers(data = sites[sites$species == "whitefish",], 
+                    group = "whitefish", 
+                    icon = icon.whitefish, 
+                    label = ~as.character(species), 
+                    clusterOptions = markerClusterOptions(),
+                    popup= "<b><a href='https://doi.org/10.1016/j.jglr.2019.09.010'>Euclide et al. 2019</a></b>") %>%
+  addLayersControl(
+    overlayGroups = c("walleye", "tessellated darters", "rainbow smelt", "slimy sculpin", "mysis", "whitefish", "smallmouth bass" ),
+    options = layersControlOptions(collapsed = FALSE), position = "topright"
+  )
+

@@ -10,7 +10,7 @@ navbar:
     - text: "Education and Outreach"
       href: ed_and_out.html   
     - text: "CV"
-      href: CV.html
+      href: full_CV.html
     - text: "Where I work"
       href: sample_map.html
 output:
