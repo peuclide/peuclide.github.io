@@ -1,6 +1,6 @@
 ---
 title: __Peter Euclide__
-author: peter.euclide@uwsp.edu
+author: euclidep@uwm.edu
 date: "February 23, 2020"
 output:
   html_document:
@@ -41,7 +41,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 
-### University of Vermont , Burlington, VT </br>
+### University of Vermont, Burlington, VT </br>
 
 - 2018 - __Ph.D. in Biology__; </br>
     Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
