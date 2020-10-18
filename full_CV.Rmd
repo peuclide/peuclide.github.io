@@ -6,9 +6,9 @@ toc: true
 
 
 ***
-##__EDUCATION__
+## __EDUCATION__
 ***
-###__University of Vermont__, Burlington, VT </br>
+### __University of Vermont__, Burlington, VT </br>
 - 2018 - __Ph.D in Biology__; </br>
     Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
 </br>
@@ -17,10 +17,10 @@ toc: true
     M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, _Mysis diluviana_, in Lake Champlain.</br>
     Advisor: Jason D. Stockwell</br></br>
     
-###__Kent State University__, Kent, OH</br>
+### __Kent State University__, Kent, OH</br>
 -  2012 - __BS in Organismal Biology__</br>
 
-##__PUBLICATIONS__
+## __PUBLICATIONS__
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
 
