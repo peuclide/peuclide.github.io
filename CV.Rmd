@@ -4,7 +4,7 @@ author: euclidep@uwm.edu
 date: "February 23, 2020"
 output:
   html_document:
-    toc: true
+    toc: false
     toc_depth: 2
 
 ---
@@ -41,7 +41,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 ***
 
-### University of Vermont, Burlington, VT </br>
+### University of Vermont, Burlington, VT 
 
 - 2018 - __Ph.D. in Biology__; </br>
     Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont
@@ -51,9 +51,11 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
     M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, _Mysis diluviana_, in Lake Champlain.</br>
     Advisor: Jason D. Stockwell</br></br>
     
-### Kent State University, Kent, OH</br>
+### Kent State University, Kent, OH 
 
--  2012 - __BS in Organismal Biology__</br>
+-  2012 - __BS in Organismal Biology__ 
+
+</br>
 
 ***
 
