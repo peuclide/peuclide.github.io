@@ -1,76 +1,65 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>__ __</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -78,58 +67,68 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
 }
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
+.dropdown-submenu {
+  position: relative;
 }
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
 }
-
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
 }
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
 }
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
 }
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu.pull-left {
+  float: none;
 }
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -140,26 +139,93 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
-
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -199,11 +265,11 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore"><hr /></h1>
+<h1 class="title toc-ignore">__ __</h1>
 
 </div>
 
@@ -213,16 +279,13 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="defining-stock-structure-of-rainbow-smelt-in-lake-champlain"><strong>Defining stock structure of Rainbow Smelt in Lake Champlain:</strong></h1>
-<hr />
-<h3 id="background"><strong>Background:</strong></h3>
-<p>Lake Champlain is divided into three major basins by large causeways. Current management of forage fish takes place in all basins, but no research has been conducted to evaluate the genetic stock structure of the population.</p>
-<h3 id="questions"><strong>Questions:</strong></h3>
-<ol style="list-style-type: decimal">
-<li><p>Do rainbow smelt in Lake Champlain constitute a single genetic population or are populations structured by basin?</p></li>
-<li><p>Does genetic data support demographic data of stock structure?</p></li>
+<p>#<strong>Defining stock structure of Rainbow Smelt in Lake Champlain:</strong> ***</p>
+<p>###<strong>Background:</strong> Lake Champlain is divided into three major basins by large causeways. Current management of forage fish takes place in all basins, but no research has been conducted to evaluate the genetic stock structure of the population.</p>
+<p>###<strong>Questions:</strong> 1) Do rainbow smelt in Lake Champlain constitute a single genetic population or are populations structured by basin?</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Does genetic data support demographic data of stock structure?</li>
 </ol>
-<h3 id="project-status"><strong>Project status:</strong></h3>
+<p>###<strong>Project status:</strong></p>
 <p>Manuscript in preparation.</p>
 </div>
 <div class="col-xs-12 col-sm-5">
@@ -239,16 +302,14 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="genetic-structure-of-whitefish-in-lake-champlain"><strong>Genetic structure of whitefish in Lake Champlain</strong></h1>
-<hr />
-<h3 id="background-1"><strong>Background:</strong></h3>
-<p>Whitefish are a important commercial species in the Great Lakes and were also historically commercially harvested in Lake Champlain. Despite historic importance, little is known about the current status of whitefish in Lake Champlain.</p>
-<h3 id="questions-1"><strong>Questions:</strong></h3>
+<p>#<strong>Genetic structure of whitefish in Lake Champlain</strong> ***</p>
+<p>###<strong>Background:</strong> Whitefish are a important commercial species in the Great Lakes and were also historically commercially harvested in Lake Champlain. Despite historic importance, little is known about the current status of whitefish in Lake Champlain.</p>
+<p>###<strong>Questions:</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Have lake causeways fragmented whitefish enough to genetically structure the population?</p></li>
 <li><p>Is there any evidence of a bottleneck in whitefish populations associated with commercial fishing?</p></li>
 </ol>
-<h3 id="project-status-1"><strong>Project status:</strong></h3>
+<p>###<strong>Project status:</strong></p>
 <p>Genotyping and analyzing data.</p>
 </div>
 </div>
@@ -257,27 +318,25 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="movement-and-genetic-structure-of-walleye-in-lake-champlain"><strong>Movement and genetic structure of walleye in Lake Champlain</strong></h1>
-<hr />
-<h3 id="background-2"><strong>Background:</strong></h3>
-<p>Walleye are an economically and ecologically important species in Lake Champlain and throughout North America. However, walleye populations in Lake Champlain have been declining slowly since the 1960s (Marsden &amp; Langdon, 2012). Our goal is to use a combination of genetic, mark and recapture, and telemetry data better understand the dispersal and movement of Walleye in the lake.</p>
-<h3 id="questions-2"><strong>Questions:</strong></h3>
+<p>#<strong>Movement and genetic structure of walleye in Lake Champlain</strong> ***</p>
+<p>###<strong>Background:</strong> Walleye are an economically and ecologically important species in Lake Champlain and throughout North America. However, walleye populations in Lake Champlain have been declining slowly since the 1960s (Marsden &amp; Langdon, 2012). Our goal is to use a combination of genetic, mark and recapture, and telemetry data better understand the dispersal and movement of Walleye in the lake.</p>
+<p>###<strong>Questions:</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Do spawning rivers constitue distinct genetic populations of walleye?</p></li>
 <li><p>Are walleye easily able to cross lake causeways?</p></li>
 <li><p>What is the straying rate of walleye between spawning rivers?</p></li>
 </ol>
-<h3 id="project-status-2"><strong>Project status:</strong></h3>
+<p>###<strong>Project status:</strong></p>
 <p>Genotyping walleye from four major spawning rivers.</p>
 </div>
 <div class="col-xs-12 col-sm-5">
 <p><br/><br/><br/></p>
-<p><img src="photos/vemco.JPG" style="width:100%;" align = "center;" margin-bottom: 0.5em/> <br/><br/> <img src="photos/walleye.jpg" style="width:100%;" align = "center"/></p>
+<p>&lt;img src=“photos/vemco.jpg” style=“width:100%;” align = “center;” margin-bottom: 0.5em/&gt; <br/><br/> <img src="photos/walleye.jpg" style="width:100%;" align = "center"/></p>
 <p><br/><br/></p>
 </div>
 </div>
 <hr />
-<p><a href="mailto:peuclide@uvm.edu">peuclide@uvm.edu</a></p>
+<p><a href="mailto:peuclide@uvm.edu" class="email">peuclide@uvm.edu</a></p>
 
 
 
@@ -288,7 +347,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -297,12 +356,29 @@ $(document).ready(function () {
 
 </script>
 
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

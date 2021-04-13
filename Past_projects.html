@@ -1,76 +1,65 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>__ __</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -78,58 +67,68 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
 }
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
+.dropdown-submenu {
+  position: relative;
 }
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
 }
-
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
 }
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
 }
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
 }
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu.pull-left {
+  float: none;
 }
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -140,26 +139,93 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
-
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -199,11 +265,11 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore"><hr /></h1>
+<h1 class="title toc-ignore">__ __</h1>
 
 </div>
 
@@ -213,17 +279,13 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="habitat-fragmentation-of-slimy-sculpin-in-lakes"><strong>Habitat fragmentation of slimy sculpin in lakes</strong></h1>
-<hr />
-<h3 id="question"><strong>Question:</strong></h3>
-<p>Do lake causeways and distance make a difference to populations of slimy sculpin in lakes?</p>
-<h3 id="answer"><strong>Answer:</strong></h3>
-<p>Not really.</p>
+<p>#<strong>Habitat fragmentation of slimy sculpin in lakes</strong> *** ###<strong>Question:</strong> Do lake causeways and distance make a difference to populations of slimy sculpin in lakes?</p>
+<p>###<strong>Answer:</strong> Not really.</p>
 <ul>
 <li>Slimy sculpin are panmictic throughout Lake Champlain, even across substantial dispersal barriers.</li>
 <li>Slimy sculpin show no indication of IBD across more 60+ km in Lake Champlain and 240+ km in Lake Ontario.</li>
 </ul>
-<h3 id="read-more"><strong>Read More:</strong></h3>
+<p>###<strong>Read More:</strong></p>
 <p><strong>Euclide, PT</strong>, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. Lack of population genetic structure of slimy sculpin in a large, fragmented lake. Ecology of Freshwater Fish.</p>
 </div>
 <div class="col-xs-12 col-sm-5">
@@ -241,17 +303,15 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="mysis-diluviana-partial-diel-vertical-migration-dvm"><strong>Mysis diluviana partial diel vertical migration (DVM)</strong></h1>
-<hr />
-<h3 id="question-1"><strong>Question:</strong></h3>
+<p>#<strong>Mysis diluviana partial diel vertical migration (DVM)</strong> *** ###<strong>Question:</strong></p>
 <p>Do <em>all</em> <em>Mysis</em> migrate to the surface every night? Or do some stay on the bottom?</p>
-<h3 id="answer-1"><strong>Answer:</strong></h3>
+<p>###<strong>Answer:</strong></p>
 <p>Some <em>Mysis</em> like to stay put.</p>
 <ul>
 <li><p>Larger and fecund <em>Mysis</em> are more likely to stay on the bottom at night than smaller individuals.</p></li>
 <li><p>Fatter <em>Mysis</em> are more likely to stay on the bottom at night than hungry <em>Mysis</em>.</p></li>
 </ul>
-<h3 id="read-more-1"><strong>Read More:</strong></h3>
+<p>###<strong>Read More:</strong></p>
 <p><strong>Euclide, PT</strong>, Hansson, S, Stockwell, JD. 2016. <a href="pdfs/Euclide%20et%20al%202017.pdf">Partial diel vertical migration in an omnivorous macroinvertebrate, Mysis diluviana.</a> Hydrobiologia. <a href="doi:10.1007/s10750-016-2982-5" class="uri">doi:10.1007/s10750-016-2982-5</a>.</p>
 </div>
 </div>
@@ -260,16 +320,15 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="the-effect-of-gut-content-on-stable-isotope-analysis"><strong>The effect of gut content on stable isotope analysis</strong></h1>
-<hr />
-<h3 id="question-2"><strong>Question:</strong></h3>
+<p>#<strong>The effect of gut content on stable isotope analysis</strong> ***</p>
+<p>###<strong>Question:</strong></p>
 <p>Does the gut content of a organism bias stable isotope analysis?</p>
-<h3 id="answer-2"><strong>Answer:</strong></h3>
+<p>###<strong>Answer:</strong></p>
 <p>Nope.</p>
 <ul>
 <li>δ15N, δ13C, and C:N was the same for Mysis with evacuated guts and guts full of Artemia, Green Algae.</li>
 </ul>
-<h3 id="read-more-2"><strong>Read More:</strong></h3>
+<p>###<strong>Read More:</strong></p>
 <p><strong>Euclide, PT</strong>, Stockwell, JD. 2015. <a href="pdfs/Euclide%20and%20Stockwell%202015.pdf">Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.</a> Journal of Great Lake Research. 41: 926-929.</p>
 </div>
 <div class="col-xs-12 col-sm-5">
@@ -290,30 +349,26 @@ $(document).ready(function () {
 <div class="col-xs-12 col-sm-7">
 <p><br/></p>
 <hr />
-<h1 id="impact-of-low-quality-diet-on-swimming-performance-and-essential-fatty-acids-efa"><strong>Impact of low quality diet on swimming performance and essential fatty acids (EFA)</strong></h1>
-<hr />
-<h3 id="question-3"><strong>Question:</strong></h3>
+<p>#<strong>Impact of low quality diet on swimming performance and essential fatty acids (EFA)</strong> ***</p>
+<p>###<strong>Question:</strong></p>
 <p>Could cyanobacteria blooms limit fish fitness by limiting nutrition in a lake food web?</p>
-<h3 id="answer-3"><strong>Answer:</strong></h3>
+<p>###<strong>Answer:</strong></p>
 <p>Probably. At least a little bit.</p>
 <ul>
 <li><p>Swimming performance was positively related to EFA.</p></li>
 <li><p>Fish fatty acid content changes rapidly (within two weeks).</p></li>
 <li><p>The interactions between EFA and swimming performance are complex, and can be contradictory.</p></li>
 </ul>
-<h3 id="read-more-3"><strong>Read More:</strong></h3>
+<p>###<strong>Read More:</strong></p>
 <p><strong>Manuscript in preperation.</strong></p>
 </div>
 </div>
 <hr />
-<div id="mysis-density-dataset" class="section level1">
-<h1><em>Mysis density dataset</em></h1>
-<hr />
+<p>#<em>Mysis density dataset</em> ***</p>
 <p>As stated above, Mysis are a common macro-zooplankton throughout North America. In addition to a large native range in Eastern North America, Mysis were purposefully added to many western lakes to boost sport fish productivity such as lake trout and kokanee including many lakes in Colorado. Because Mysis are a important source of food for fish and an important predator of zooplankton, Mysis density can be a important predictor of system productivity. However, documentation of Mysis density has been inconsistent and not easily accessible. Therefore, we have begun to assemble a central dataset of Mysis density data from across North America, though most our data is from the Great Lakes.</p>
 <p><strong>RShiny App:</strong> <a href="https://peter-euclide.shinyapps.io/Mysis_density_app/" class="uri">https://peter-euclide.shinyapps.io/Mysis_density_app/</a></p>
 <hr />
-<p><a href="mailto:peuclide@uvm.edu">peuclide@uvm.edu</a></p>
-</div>
+<p><a href="mailto:peuclide@uvm.edu" class="email">peuclide@uvm.edu</a></p>
 
 
 
@@ -324,7 +379,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -333,12 +388,29 @@ $(document).ready(function () {
 
 </script>
 
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
