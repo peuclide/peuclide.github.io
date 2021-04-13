@@ -15,23 +15,36 @@
 
 <title>Peter Euclide</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -80,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -298,7 +267,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -359,11 +328,17 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a>
 </div>
 <hr />
+<p><strong>Euclide, PT</strong>, MacDougall, T, Robinson, JM, Faust, MD, Wilson, CC, Chen, K, Marschall, EA, Larson, W, Ludsin, S (2021). <a href="https://doi.org/10.1111/eva.13209">Mixed‐stock analysis using Rapture genotyping to evaluate stock‐specific exploitation of a walleye population despite weak genetic structure</a>. <em>Evolutionary Applications</em>, 00, eva.13209.</p>
+<p><strong>Euclide, PT</strong>, Lor, Y, Spear, MJ, Tajjioui, T, Vander Zanden, J, Larson, WA, Amberg, J (In Press). Efficient environmental DNA biodiversity assessment of nine north-temperate lakes and rivers with established monitoring programs. <em>Diversity and Distributions</em></p>
+<p>Bootsma, ML, Miller, L, Sass, GG, <strong>Euclide, PT</strong>, Larson, WA (2020). <a href="https://doi.org/10.1111/eva.13186">The ghosts of propagation past: haplotype information clarifies the relative influence of stocking history and phylogeographic processes on contemporary population structure of walleye (Sander vitreus)</a>. <em>Evolutionary Applications</em></p>
+<p>Riginos, C, Crandall, E, Liggins, L, Gaither, MR, Ewing, RB, Meyer, C, Andrews, KR, <strong>Euclide, PT</strong>, Titus, BM, Overgaard Therkildsen, N, Salces -Castellano, A, Stewart, LC, Toonen, RJ, Deck, J. 2020. <a href="https://doi.org/10.1111/1755-0998.13269">Building a Global Genomics Observatory: using GEOME (the Genomic Observatories Metadatabase) to expedite and improve deposition and retrieval of genetic data and metadata for biodiversity research</a>. Molecular Ecology Resources.</p>
+<p>Robinson, KF, Bronte, CR, Bunnell, DB, <strong>Euclide, PT</strong>, Hondorp, D, Kornis, MS, Riley, S, Vinson, M, Volkel, SL, Weidel, B. 2020. <a href="https://doi.org/10.1080/23308249.2020.1782341">A synthesis of the biology and ecology of sculpin species in the Laurentian Great Lakes and implications for the adaptive capacity of the benthic ecosystem</a>. <em>Reviews in Fisheries Science &amp; Aquaculture</em>.</p>
+<p><strong>Euclide, PT</strong>, Ruzich J, Hansen, SP, Rowe, D, Zorn, TG, Larson, WA. 2020. <a href="https://doi.org/10.1002/tafs.10238">Genetic structure of Smallmouth Bass (Micropterus dolomieu) in Lake Michigan and the Upper Mississippi drainages relates to habitat, distance, and drainage boundaries</a>. <em>Transactions of the American Fisheries Society</em>.</p>
 <p><strong>Euclide, PT</strong>, Pientka, B, Marsden, JE. In 2020. <a href="https://doi.org/10.1016/j.jglr.2020.02.009">Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake</a>. <em>Journal of Great Lakes Research</em>.</p>
 <p><strong>Euclide, PT</strong>, Kilpatrick, CW, Marsden, JE. 2019. <a href="https://doi.org/10.1016/j.jglr.2019.09.010">Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure</a>. <em>Journal of Great Lake Research</em>.</p>
 <p><strong>Euclide, PT</strong>, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087">Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.</a> <em>Molecular Ecology Resources</em>.</p>
-<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, <em>Perca flavescens</em>. Molecular Ecology Resources. (<a href="https://www.biorxiv.org/content/10.1101/717397v1" class="uri">https://www.biorxiv.org/content/10.1101/717397v1</a>) <em>BioRxiv</em>:1–22.]</p>
-<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. <a href="https://link.springer.com/article/10.1007/s10592-018-1107-2">Role of drainage and barriers in the genetic structuring of a tessellated darter population. Conservation Genetics</a>. 19: 1379-1392.</p>
+<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. <a href="https://doi.org/10.1111/1755-0998.13133">Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, <em>Perca flavescens</em></a>. <em>Molecular Ecology Resources</em>.</p>
+<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. <a href="https://link.springer.com/article/10.1007/s10592-018-1107-2">Role of drainage and barriers in the genetic structuring of a tessellated darter population</a>. <em>Conservation Genetics</em>. 19: 1379-1392.</p>
 <p>Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, <strong>Euclide, PT</strong>, Balcerd, MD. 2018. <a href="https://linkinghub.elsevier.com/retrieve/pii/S0380133018300492">Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016</a>. <em>Journal of Great Lakes Research</em>. 44: 590-599</p>
 <p><strong>Euclide, PT</strong>, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. <a href="pdfs/euclide%20et%20al%202017%20b.pdf">Lack of population genetic structure of slimy sculpin in a large, fragmented lake</a>. <em>Ecology of Freshwater Fish</em>. 27: 699-709.</p>
 <p><strong>Euclide, PT</strong>, Hansson, S, Stockwell, JD. 2016. <a href="pdfs/Euclide%20et%20al%202017.pdf">Partial diel vertical migration in an omnivorous macroinvertebrate, Mysis diluviana.</a> <em>Hydrobiologia</em>. <a href="doi:10.1007/s10750-016-2982-5" class="uri">doi:10.1007/s10750-016-2982-5</a>. 787: 387-396.</p>
@@ -374,6 +349,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <h2>SELECTED REAEARCH PRESENTATIONS</h2>
 <hr />
 <p>(Presenter bolded)</p>
+<p><strong>Euclide, PT</strong>, Dixon, B, Faust, M, Miller, L, Stott, W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more nuanced picture of walleye population structure in the Great Lakes. International Association of Great Lakes Research. Virtual conference <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada. <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Bootsma, M, Meek, M, McKinney, G, Larson, W 2019. Attack of the clones The influence of PCR clones on RAD-seq genotype calls. International Association of Great Lakes Research. Brockport, New York. <em>[oral presentation]</em></p>
 <p><strong>Euclide, PT</strong>, Ruzich, J, Hansen, S, Rowe, D, Zorn, T, Larson, W 2019. Population genetic structure of smallmouth bass in inland Wisconsin and Lake Michigan. Wisconsin American Fisheries Society. Greenbay Wisconsin. <em>[oral presentation]</em></p>
@@ -394,6 +370,12 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <h2>INVITED TALKS</h2>
 <hr />
 <p>(Presenter bolded)</p>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis of East Basin walleye. Lake Erie Committee.</p>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Applications of Genomic Data for Walleye Management in Lake Erie. Walleye Task Group meeting.</p>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Bootsma, M, Stott, W, Scribner, K, Larson, WA. 2020. Using Genomic Data to Guide Walleye Management in the Great Lakes. American Fisheries Society, Columbus Ohio</p>
+<p><strong>Euclide, PT</strong>. 2020. Lake Champlain walleye report. Vermont Fish and Wildlife Department. Essex, Vermont</p>
+<p><strong>Euclide, PT</strong>. 2020. Defining Connectivity of Great Lakes Smallmouth Bass Populations Using Genomics and Telemetry. Great Lakes Fishery Commission Board of Technical Experts Meeting. Ann Arbor, Michigan</p>
+<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada.</p>
 <p><strong>Euclide, PT</strong>, 2019. 23andMe for smallmouth bass: Using genetics to identify genetic differences among populations. Smallmouth Bass Public Meeting, Sturgeon Bay, WI</p>
 <p><strong>Euclide, PT</strong>, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT</p>
 <hr />
@@ -433,14 +415,14 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div id="workshops-facilitated" class="section level3">
 <h3>Workshops Facilitated:</h3>
 <ul>
-<li><p>R-Expo, American Fisheries Society - Wisconsin Chapter <em>2020</em></p></li>
+<li><p><a href="https://peuclide.github.io/R-expo-2021/">R-Expo</a>, American Fisheries Society - Wisconsin Chapter <em>2020, 2021</em></p></li>
 <li><p>Champlain Research Experience for Students and Teachers (CREST) Workshop: <em>Summers, 2014 - 2016</em>, University of Vermont</p></li>
 <li><p>Communicating Science, REU Workshop: <em>Summers 2014 &amp; 2015</em>, University of Vermont</p></li>
 </ul>
 </div>
 <div id="manuscripts-reviewed-for" class="section level3">
 <h3>Manuscripts reviewed for:</h3>
-<p>Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (2), Journal of Fish Biology (1), Ecology and Evolution (1), Genes (1)</p>
+<p>Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources</p>
 </div>
 <div id="academic-research-technician" class="section level3">
 <h3>Academic research technician:</h3>
@@ -542,7 +524,7 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -560,7 +542,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

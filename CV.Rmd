@@ -64,6 +64,17 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
 
 ***
+__Euclide, PT__, MacDougall, T, Robinson, JM, Faust, MD, Wilson, CC, Chen, K, Marschall, EA, Larson, W, Ludsin, S (2021). [Mixed‐stock analysis using Rapture genotyping to evaluate stock‐specific exploitation of a walleye population despite weak genetic structure](https://doi.org/10.1111/eva.13209). _Evolutionary Applications_, 00, eva.13209.
+
+__Euclide, PT__, Lor, Y, Spear, MJ, Tajjioui, T, Vander Zanden, J, Larson, WA, Amberg, J (In Press). Efficient environmental DNA biodiversity assessment of nine north-temperate lakes and rivers with established monitoring programs. _Diversity and Distributions_
+
+Bootsma, ML, Miller, L, Sass, GG, __Euclide, PT__, Larson, WA (2020). [The ghosts of propagation past: haplotype information clarifies the relative influence of stocking history and phylogeographic processes on contemporary population structure of walleye (Sander vitreus)](https://doi.org/10.1111/eva.13186). _Evolutionary Applications_ 
+
+Riginos, C, Crandall, E, Liggins, L, Gaither, MR, Ewing, RB, Meyer, C, Andrews, KR, __Euclide, PT__, Titus, BM, Overgaard Therkildsen, N, Salces -Castellano, A, Stewart, LC, Toonen, RJ, Deck, J. 2020. [Building a Global Genomics Observatory: using GEOME (the Genomic Observatories Metadatabase) to expedite and improve deposition and retrieval of genetic data and metadata for biodiversity research](https://doi.org/10.1111/1755-0998.13269). Molecular Ecology Resources. 
+
+Robinson, KF, Bronte, CR, Bunnell, DB, __Euclide, PT__, Hondorp, D, Kornis, MS, Riley, S, Vinson, M, Volkel, SL, Weidel, B. 2020. [A synthesis of the biology and ecology of sculpin species in the Laurentian Great Lakes and implications for the adaptive capacity of the benthic ecosystem](https://doi.org/10.1080/23308249.2020.1782341).  _Reviews in Fisheries Science & Aquaculture_.
+
+__Euclide, PT__, Ruzich J, Hansen, SP, Rowe, D, Zorn, TG, Larson, WA. 2020. [Genetic structure of Smallmouth Bass (Micropterus dolomieu) in Lake Michigan and the Upper Mississippi drainages relates to habitat, distance, and drainage boundaries](https://doi.org/10.1002/tafs.10238). _Transactions of the American Fisheries Society_.
 
 __Euclide, PT__, Pientka, B, Marsden, JE. In 2020. [Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake](https://doi.org/10.1016/j.jglr.2020.02.009). _Journal of Great Lakes Research_.
 
@@ -71,9 +82,9 @@ __Euclide, PT__, Kilpatrick, CW, Marsden, JE. 2019. [Genetic structure of lake w
 
 __Euclide, PT__, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. [Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087) _Molecular Ecology Resources_.  
 
-Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_. Molecular Ecology Resources. (https://www.biorxiv.org/content/10.1101/717397v1) _BioRxiv_:1–22.]
+Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, __Euclide, PT__, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. [Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, _Perca flavescens_](https://doi.org/10.1111/1755-0998.13133). _Molecular Ecology Resources_.
 
-__Euclide, PT__, Marsden, JE. 2018. [Role of drainage and barriers in the genetic structuring of a tessellated darter population. Conservation Genetics](https://link.springer.com/article/10.1007/s10592-018-1107-2). 19: 1379-1392.
+__Euclide, PT__, Marsden, JE. 2018. [Role of drainage and barriers in the genetic structuring of a tessellated darter population](https://link.springer.com/article/10.1007/s10592-018-1107-2). _Conservation Genetics_. 19: 1379-1392.
 
 Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, __Euclide, PT__, Balcerd, MD. 2018. [Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016](https://linkinghub.elsevier.com/retrieve/pii/S0380133018300492). _Journal of Great Lakes Research_. 44: 590-599
 
@@ -87,6 +98,8 @@ __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, an
 ## SELECTED REAEARCH PRESENTATIONS
 ***
 (Presenter bolded)
+
+__Euclide, PT__, Dixon, B, Faust, M, Miller, L, Stott, W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more nuanced picture of walleye population structure in the Great Lakes. International Association of Great Lakes Research. Virtual conference _[oral presentation]_
 
 __Euclide, PT__, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada. _[oral presentation]_
 
@@ -120,6 +133,18 @@ __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel verti
 ## INVITED TALKS
 ***
 (Presenter bolded)
+
+__Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis of East Basin walleye. Lake Erie Committee. 
+
+__Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Applications of Genomic Data for Walleye Management in Lake Erie. Walleye Task Group meeting. 
+
+__Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Bootsma, M, Stott, W, Scribner, K, Larson, WA. 2020. Using Genomic Data to Guide Walleye Management in the Great Lakes. American Fisheries Society, Columbus Ohio
+
+__Euclide, PT__. 2020. Lake Champlain walleye report. Vermont Fish and Wildlife Department. Essex, Vermont
+
+__Euclide, PT__. 2020. Defining Connectivity of Great Lakes Smallmouth Bass Populations Using Genomics and Telemetry. Great Lakes Fishery Commission Board of Technical Experts Meeting. Ann Arbor, Michigan
+
+__Euclide, PT__, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada.
 
 __Euclide, PT__, 2019. 23andMe for smallmouth bass: Using genetics to identify genetic differences among populations. Smallmouth Bass Public Meeting, Sturgeon Bay, WI
 
@@ -166,7 +191,7 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 
 ### Workshops Facilitated:
 
-- R-Expo, American Fisheries Society - Wisconsin Chapter _2020_
+- [R-Expo](https://peuclide.github.io/R-expo-2021/), American Fisheries Society - Wisconsin Chapter _2020, 2021_
 
 - Champlain Research Experience for Students and Teachers (CREST) Workshop: _Summers, 2014 - 2016_, University of Vermont
 
@@ -174,7 +199,7 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 
 ### Manuscripts reviewed for:
 
- Journal of Great Lakes Research (1), Hydrobiologia (2), Biological Invasions (1), Canadian Journal of Fisheries and Aquatic Science (1), North American Journal of Fisheries Management (2), Journal of Fish Biology (1), Ecology and Evolution (1), Genes (1)
+Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources
 
 ### Academic research technician:
 
