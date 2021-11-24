@@ -15,5 +15,9 @@ navbar:
       href: sample_map.html
 output:
   html_document:
+    include:
+      in_header: googleAnalytics.Rhtml
+      after_body: footer.html
     theme: yeti
     css: style.css
+    

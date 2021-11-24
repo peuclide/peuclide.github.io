@@ -1,6 +1,5 @@
 ---
-title:
-output: html_document
+title: Educaton and  Outreach
 ---
 
 <img src="photos/Tori_ECHO.jpg" style="width:100%;" align = "top"/>
@@ -103,5 +102,3 @@ The [Champlain Research Experience for Secondary Teachers (CREST)](https://vctm.
   </div></div>
 
 ***
-
-Contact me: peter.euclide@uwsp.edu

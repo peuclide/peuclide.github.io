@@ -1,6 +1,5 @@
 ---
-title: __ __
-output: html_document
+title: "<span style='font-size: 20px'>Zoom to see sample locations</style>"
 ---
 
 
@@ -91,9 +90,6 @@ leaflet() %>%
                       "sockeye salmon"),
     options = layersControlOptions(collapsed = FALSE), position = "topright"
   )
-
- 
- 
 
 
  

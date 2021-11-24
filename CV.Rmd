@@ -1,12 +1,7 @@
 ---
 title: __Peter Euclide__
-author: euclidep@uwm.edu
+author: peuclide@purdue.edu
 date: "February 23, 2020"
-output:
-  html_document:
-    toc: false
-    toc_depth: 2
-
 ---
 
 <style type="text/css">
