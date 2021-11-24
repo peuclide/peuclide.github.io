@@ -1,5 +1,5 @@
 ---
-title: Educaton and  Outreach
+title: Educaton and Outreach
 ---
 
 <img src="photos/Tori_ECHO.jpg" style="width:100%;" align = "top"/>
