@@ -2,7 +2,7 @@
 title: Research
 ---
 
-<img src="photos/UVM_research.jpg" style="width:100%;" align = "top"/>
+<img src="photos/purdueBoat.jpg" style="width:100%;" align = "top"/>
 
 :::: {style="display: grid; grid-template-columns: 60% 40%; grid-column-gap: 10px; "}
 
@@ -104,7 +104,7 @@ My interest in behavioral ecology stems from my thesis research on partial diel 
 
 ::: {}
 ***  
-# __Additional reserach__
+# __Additional research__
 ***
 
 Harmful cyanobacteria blooms are a global issue. Because cyanobacteria have little nutritional value for zooplankton, it is possible that higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two-month experiment to determine how essential fatty acid poor diets, like what might happen during a long cyanobacteria bloom, impact fish fatty acid content, swimming performance and respiration.
