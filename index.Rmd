@@ -30,10 +30,11 @@ I am a research scientist and Illinois-Indiana Sea Grant Fisheries Specialist wo
 
 Work areas:
 
-* <a href="https://peuclide.github.io/Research#Molecular drivers of ecotypic divergence">Evolution of ecotype diversity</a>
+* [Molecular drivers of ecotypic divergence](https://peuclide.github.io/Research#Molecular drivers of ecotypic divergence)
 * [Public outreach and science communication](https://peuclide.github.io/ed_and_out.html)
-* <a href="https://peuclide.github.io/Research#fish_race">Improving management decisions with genetic data</a>
-* [Genetic consequences of habitat fragmentation](https://peuclide.github.io/Research#hab-frag)
+* [Improving management decisions with genetic data](https://peuclide.github.io/Research#Improving management decisions with genetic data)
+* [Genetic consequences of habitat fragmentation](https://peuclide.github.io/Research#Genetic consequences of habitat fragmentation)
+
 
 
 </div>
