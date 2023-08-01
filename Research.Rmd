@@ -11,7 +11,7 @@ title: Research
 # Molecular drivers of ecotypic divergence
 ***
 
-Populations are often comprised of discrete ecotypes with distinct morphology or behavior in the absence of reproductive isolation. One of my research objectives is to identify both the molecular mechanisms and environmental drivers of ecotypic divergence. Understanding how local adaptation within a population can lead to diverged ecotypes has important implications for speciation research and the conservation diversity. My work uses molecular techniques, such as RAD-sequencing and whole-genome-resequencing, to identify putatively adaptive variance among ecotypes or populations. Using these approaches, I currently involved in research that is identifying SNPs that are linked to lipid content in F2 experimental lake trout crosses (left) and helping to uncover how structural variants contribute to spawning ecotypes in sockeye salmon. In my own lab, I hope to use these same techniques research river-resident and river-transient smallmouth bass ecotypes which have been repeatedly observed throughout the Great Lakes. 
+Populations are often comprised of discrete ecotypes with distinct morphology or behavior in the absence of reproductive isolation. One of my research objectives is to identify both the molecular mechanisms and environmental drivers of ecotypic divergence. Understanding how local adaptation within a population can lead to diverged ecotypes has important implications for speciation research and the conservation diversity. My work uses molecular techniques, such as RAD-sequencing and whole-genome-resequencing, to identify putatively adaptive variance among ecotypes or populations. Using these approaches, I have been able to identify SNPs that are linked to lipid content in F2 experimental lake trout crosses (right) and help to uncover how structural variants contribute to spawning ecotypes in sockeye salmon.
 
 :::
 
@@ -58,8 +58,10 @@ Recreational and commercial fisheries are a valuable industry throughout the wor
 :::: {style="display: grid; grid-template-columns: 60% 40%; grid-column-gap: 10px; "}
 
 ::: {}
+
+
 ***  
-# Genetic consequences of habitat fragmentation
+# <a name="hab-frag"></a> Genetic consequences of habitat fragmentation
 ***
 
 Humans have altered the natural connectivity of fish populations through constructing damns and causeways that limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. Many barriers affecting species throughout North America were built recently, and so I work at intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography, and mark-recapture datasets to understand how populations have adjusted to lost connectivity. In Lake Champlain, I used population genetic and fisheries data to describe patterns of neutral genetic structure and population demographics of fish native to Lake Champlain which has been fragmented by seven causeways built during the early twentieth century. 
@@ -76,9 +78,16 @@ Humans have altered the natural connectivity of fish populations through constru
 
 ***  
 
+<br/><br/>
+
+# Additional research areas
+
+***
+
 :::: {style="display: grid; grid-template-columns: 40% 60%; grid-column-gap: 10px; "}
 
 ::: {}
+
 
 <br/><br/>
 
@@ -90,10 +99,11 @@ Humans have altered the natural connectivity of fish populations through constru
 ::: {}
 
 ***  
-# Partial diel vertical  migration
+## Applying trophic markers to trace movement 
 ***
 
-My interest in behavioral ecology stems from my thesis research on partial diel vertical migration behavior of _Mysis diluviana_ in Lake Champlain. Using a combination of stable isotopes and basic demographic data I determined that gravid females and large _Mysis_ with higher C:N content (lipid content) were more likely to remain on the bottom at night while the rest of the population migrated to the surface to feed.
+When populations are not fully reproductively isolated, genetic markers provide limited information about functional connectivity. Using trophic markers such as of stable isotopes and basic demographic data can help identify ecological breaks in population connectivity.
+
 :::
 
 ::::
@@ -104,10 +114,10 @@ My interest in behavioral ecology stems from my thesis research on partial diel 
 
 ::: {}
 ***  
-# Additional research
+## Quantifying environmental stressers
 ***
 
-Harmful cyanobacteria blooms are a global issue. Because cyanobacteria have little nutritional value for zooplankton, it is possible that higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two-month experiment to determine how essential fatty acid poor diets, like what might happen during a long cyanobacteria bloom, impact fish fatty acid content, swimming performance and respiration.
+Understanding how local environment influences individual fitenss is an important step in determining how species adapt to novel stressors. One emerging stressor in aquatic habitats is harmful cyanobacteria blooms. Because cyanobacteria have little nutritional value for zooplankton, it is possible that higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two-month experiment to determine how essential fatty acid poor diets, like what might happen during a long cyanobacteria bloom, impact fish fatty acid content, swimming performance and respiration.
 
 :::
 
