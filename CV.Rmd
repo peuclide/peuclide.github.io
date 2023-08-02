@@ -1,7 +1,7 @@
 ---
 title: __Peter Euclide__
 author: peuclide@purdue.edu
-date: "February 23, 2020"
+date: "August 1, 2023"
 ---
 
 <style type="text/css">
@@ -59,6 +59,21 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
 
 ***
+
+Johnson, A, Zipfel, K, Hallerman, E, Massure, W, __Euclide, PT__, Welsh, A. 2023. [Genomic evaluation of native Walleye in the Appalachian Region and the effects of stocking](https://doi.org/10.1002/tafs.10406). Transactions of the American Fisheries Society. 
+
+__Euclide, PT__, Larson, WA, Bootsma, ML, Faust, M, Miller, L, Scribner, KT, Stott, W, Wilson, CC, Latch, EK. 2022. [A new GTSeq resource to facilitate multijurisdictional research and management of walleye _Sander vitreus_](https://doi.org/10.1002/ece3.9591). Ecology and Evolution. 
+
+Shi, Y, Homola, J, __Euclide, PT__, Isermann, D, Caroffino, D, McPhee, M, Larson, W. 2022. [High-density genomic data reveal fine-scale population structure and pronounced islands of adaptive divergence in lake whitefish (Coregonus clupeaformis) from Lake Michigan](https://doi.org/10.1111/eva.13475). Evolutionary Applications. 
+
+__Euclide, PT__, Schmitt, JD, Kraus, RT, Cook, A, Markham, J. 2022. [Genome-wide genetic diversity may help identify fine-scale genetic structure among Lake Whitefish spawning stocks in Lake Erie](https://doi.org/10.1016/j.jglr.2022.05.020). Journal of Great Lakes Research. 
+
+__Euclide, PT__, Jasonowicz, A, Sitar, S, Fischer, G, Goetz, FW. 2022. [Further evidence from common garden rearing experiments of heritable traits separating lean and siscowet lake charr (Salvelinus namaycush) ecotypes](https://onlinelibrary.wiley.com/doi/10.1111/mec.16492). Molecular Ecology. 10.1111/mec.16492
+
+Thorstensen, M, __Euclide, PT__, Jeffrey, J., Shi, Y, Treberg, J, Watkinson, D, Enders, E, Larson, W, Kobayashi, Y., Jeffries, K. 2022. [A chromosomal inversion may facilitate adaptation despite periodic gene flow in a freshwater fish](https://onlinelibrary.wiley.com/doi/10.1002/ece3.8898). Ecology and Evolution. http://doi.org/10.1002/ece3.8898 
+
+__Euclide, PT__, Robinson, JM, MacDougall, T, Faust, MD, Bootsma, M, Chen, K, Larson, WA, Ludsin, Marschall, EA, Scribner, KT, Stott, W, Wilson, CC. 2021. Using Genomic Data to Guide Walleye Management in the Great Lakes. in Bruner, JC, and DeBruyne, RL, editors. Ecology, Management, and Culture of Sauger, Walleye, and Yellow Perch.
+
 __Euclide, PT__, MacDougall, T, Robinson, JM, Faust, MD, Wilson, CC, Chen, K, Marschall, EA, Larson, W, Ludsin, S (2021). [Mixed‐stock analysis using Rapture genotyping to evaluate stock‐specific exploitation of a walleye population despite weak genetic structure](https://doi.org/10.1111/eva.13209). _Evolutionary Applications_, 00, eva.13209.
 
 __Euclide, PT__, Lor, Y, Spear, MJ, Tajjioui, T, Vander Zanden, J, Larson, WA, Amberg, J (In Press). Efficient environmental DNA biodiversity assessment of nine north-temperate lakes and rivers with established monitoring programs. _Diversity and Distributions_
@@ -93,6 +108,10 @@ __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, an
 ## SELECTED REAEARCH PRESENTATIONS
 ***
 (Presenter bolded)
+
+__Euclide, PT__, Yin, X, Clapp, C, Ruetz, C, Hook, T, Christie, M. 2022. Yellow perch population and habitat use in Lake Michigan. Lake Michigan Technical Committee. [oral presentation]
+
+__Euclide, PT__, Yin, X, Ruetz, C, Hook, T, Christie, M. 2022. Genome re-sequencing reveals genetic differences between Lake Michigan and drowned river mouth yellow perch. Joint Aquatic Sciences Meeting. [oral presentation]
 
 __Euclide, PT__, Dixon, B, Faust, M, Miller, L, Stott, W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more nuanced picture of walleye population structure in the Great Lakes. International Association of Great Lakes Research. Virtual conference _[oral presentation]_
 
@@ -145,19 +164,22 @@ __Euclide, PT__, 2019. 23andMe for smallmouth bass: Using genetics to identify g
 
 __Euclide, PT__, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT
 
-***
-## DATA PUBLICATIONS
-***
-
-- Lake Champlain Mysis Stable Isotopes. [KNB.](https://knb.ecoinformatics.org/#view/knb.749.1)
-
-- Mysis Density in North America. [RShiny.](https://peter-euclide.shinyapps.io/Mysis_density_app/)
 
 ***
 ## GRANTS and AWARDS
 ***
 
-__2018 – Pres.__	Using genomics to delineate stock structure and create a standardized genetic resource for great lakes walleye. Great Lakes Fishery Commission (co-author): $195,670
+__2023 – 2025__	Understanding Klondike Reef ecotypes for lake trout restoration in the lower Great Lakes. US Fish and Wildlife Great Lakes Fish and Wildlife Restoration Act. Co-PI: $ 179,250. 
+
+__2023 – 2024__	 Delineation of stock structure and habitat usage of Lake Superior walleye to inform restoration objectives. US Fish and Wildlife Great Lakes Fish and Wildlife Restoration Act. Co-PI: $188,653.75. 
+
+__2023 - 2025__	Defining connectivity of Great Lakes smallmouth bass populations using genomics and telemetry. Great Lakes Fishery Commission PI: $254,913. Grant No. TBD
+
+__2022 - 2024__	Using adaptive genetic variation to improve lake whitefish genetic stock assignment in Lake Erie. US Fish and Wildlife Great Lakes Fish and Wildlife Restoration Act. PI: $101,140. Grant No: F22AP02898-00
+
+__2022 - 2023__	Supplemental genetic analysis funding for the Alaska hatchery research program. Alaska Department of Fish and Game internal funding contract. PI. $144,694.
+
+__2019 – 2022__	Using genomics to delineate stock structure and create a standardized genetic resource for great lakes walleye. Great Lakes Fishery Commission (co-author): $195,670
 
 __2016 – 2017__	Quantifying the consequences of water quality changes and habitat fragmentation on the genetic structure of aquatic organisms in the Lake Champlain basin. Water Resources Research Grant (primary author): $10,000
 
@@ -186,6 +208,8 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 
 ### Workshops Facilitated:
 
+- [Spring and fall Illinois-Indiana Sea Grant Lake Michigan Fisheries Workshops](https://iiseagrant.org/work/fisheries/programs-initiatives/fisheries-workshops/). 
+
 - [R-Expo](https://peuclide.github.io/R-expo-2021/), American Fisheries Society - Wisconsin Chapter _2020, 2021_
 
 - Champlain Research Experience for Students and Teachers (CREST) Workshop: _Summers, 2014 - 2016_, University of Vermont
@@ -194,7 +218,10 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 
 ### Manuscripts reviewed for:
 
-Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources
+Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources • Molecular Ecology • Conservation Science and Practice • Conservation Genetics
+
+### Grants reviewed for:
+Great Lakes Fishery Trust – 2023 • Washington Sea Grant - 2023
 
 ### Academic research technician:
 
@@ -244,6 +271,7 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 - __Taxonomic:__ Basic fish, zooplankton and insect identification
 
 ### Computer:
+
 - __Graphing:__ R, GGPlot, Excel, and Prism
 
 - __Statistical analysis:__ R, JMP, SPSS, STRUCTURE, Arlequin, ADMIXTURE, NeEstimator, FSTAT, Microchecker and other population genetic analysis
@@ -253,18 +281,11 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 
 ### Laboratory:
 
-- __Genetic:__ PCR, gel electrophoresis, microsatellite analysis, DNA extractions using DNEasy kit, Gentra PurGene kit, and chelex.
+- __Genetic:__ Illumina library preperation, GT-seq preperation, PCR, gel electrophoresis, microsatellite analysis, DNA extractions using DNEasy kit, Gentra PurGene kit, and chelex.
 
 - __Stable isotope:__ analysis and sample preparation
 
 - __Eco-physiology:__  Blazka type swim-tunnel respirometry and swimming performance,
-
-- __Taxonomy:__ dichotomous key identification
-
-- __Animal husbandry:__ zebra fish, Mysis, daphnia, artemia, and algae cultureing
-
-- __Greenhouse:__ plant germination and care, green house maintenance and pest control
-
 
 
 ***
@@ -285,5 +306,5 @@ _2013 - 2014_, University of Vermont and ECHO Lake Aquarium and Science Center.
 <img src="photos/Fig_2_scul.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="photos/FullMap_EFF_revisions_CWlabeled.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="photos/Figure_5_tess.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="photos/Figure 1.png" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/IMG_0121.jpeg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
 

@@ -11,12 +11,12 @@
 
 <meta name="author" content="peuclide@purdue.edu" />
 
-<meta name="date" content="2020-02-23" />
+<meta name="date" content="2023-08-01" />
 
 <title>Peter Euclide</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -68,6 +68,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -92,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -149,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -244,7 +252,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -281,8 +289,9 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore"><strong>Peter Euclide</strong></h1>
-<h4 class="author"><a href="mailto:peuclide@purdue.edu" class="email">peuclide@purdue.edu</a></h4>
-<h4 class="date">February 23, 2020</h4>
+<h4 class="author"><a href="mailto:peuclide@purdue.edu"
+class="email">peuclide@purdue.edu</a></h4>
+<h4 class="date">August 1, 2023</h4>
 
 </div>
 
@@ -318,8 +327,14 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div id="university-of-vermont-burlington-vt" class="section level3">
 <h3>University of Vermont, Burlington, VT</h3>
 <ul>
-<li>2018 - <strong>Ph.D. in Biology</strong>; </br> Genetic and demographic consequences of lake and river habitat fragmentation on fishes in Vermont </br> Advisor: J. Ellen Marsden</br></br></li>
-<li>2015 - <strong>M.Sc. in Natural Resources (Aquatic Ecology and Watershed Science)</strong> </br> M.Sc. Thesis, Fixed versus plastic partial migration of the aquatic macroinvertebrate, <em>Mysis diluviana</em>, in Lake Champlain.</br> Advisor: Jason D. Stockwell</br></br></li>
+<li>2018 - <strong>Ph.D. in Biology</strong>; </br> Genetic and
+demographic consequences of lake and river habitat fragmentation on
+fishes in Vermont </br> Advisor: J. Ellen Marsden</br></br></li>
+<li>2015 - <strong>M.Sc. in Natural Resources (Aquatic Ecology and
+Watershed Science)</strong> </br> M.Sc. Thesis, Fixed versus plastic
+partial migration of the aquatic macroinvertebrate, <em>Mysis
+diluviana</em>, in Lake Champlain.</br> Advisor: Jason D.
+Stockwell</br></br></li>
 </ul>
 </div>
 <div id="kent-state-university-kent-oh" class="section level3">
@@ -337,76 +352,285 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a>
 </div>
 <hr />
-<p><strong>Euclide, PT</strong>, MacDougall, T, Robinson, JM, Faust, MD, Wilson, CC, Chen, K, Marschall, EA, Larson, W, Ludsin, S (2021). <a href="https://doi.org/10.1111/eva.13209">Mixed‐stock analysis using Rapture genotyping to evaluate stock‐specific exploitation of a walleye population despite weak genetic structure</a>. <em>Evolutionary Applications</em>, 00, eva.13209.</p>
-<p><strong>Euclide, PT</strong>, Lor, Y, Spear, MJ, Tajjioui, T, Vander Zanden, J, Larson, WA, Amberg, J (In Press). Efficient environmental DNA biodiversity assessment of nine north-temperate lakes and rivers with established monitoring programs. <em>Diversity and Distributions</em></p>
-<p>Bootsma, ML, Miller, L, Sass, GG, <strong>Euclide, PT</strong>, Larson, WA (2020). <a href="https://doi.org/10.1111/eva.13186">The ghosts of propagation past: haplotype information clarifies the relative influence of stocking history and phylogeographic processes on contemporary population structure of walleye (Sander vitreus)</a>. <em>Evolutionary Applications</em></p>
-<p>Riginos, C, Crandall, E, Liggins, L, Gaither, MR, Ewing, RB, Meyer, C, Andrews, KR, <strong>Euclide, PT</strong>, Titus, BM, Overgaard Therkildsen, N, Salces -Castellano, A, Stewart, LC, Toonen, RJ, Deck, J. 2020. <a href="https://doi.org/10.1111/1755-0998.13269">Building a Global Genomics Observatory: using GEOME (the Genomic Observatories Metadatabase) to expedite and improve deposition and retrieval of genetic data and metadata for biodiversity research</a>. Molecular Ecology Resources.</p>
-<p>Robinson, KF, Bronte, CR, Bunnell, DB, <strong>Euclide, PT</strong>, Hondorp, D, Kornis, MS, Riley, S, Vinson, M, Volkel, SL, Weidel, B. 2020. <a href="https://doi.org/10.1080/23308249.2020.1782341">A synthesis of the biology and ecology of sculpin species in the Laurentian Great Lakes and implications for the adaptive capacity of the benthic ecosystem</a>. <em>Reviews in Fisheries Science &amp; Aquaculture</em>.</p>
-<p><strong>Euclide, PT</strong>, Ruzich J, Hansen, SP, Rowe, D, Zorn, TG, Larson, WA. 2020. <a href="https://doi.org/10.1002/tafs.10238">Genetic structure of Smallmouth Bass (Micropterus dolomieu) in Lake Michigan and the Upper Mississippi drainages relates to habitat, distance, and drainage boundaries</a>. <em>Transactions of the American Fisheries Society</em>.</p>
-<p><strong>Euclide, PT</strong>, Pientka, B, Marsden, JE. In 2020. <a href="https://doi.org/10.1016/j.jglr.2020.02.009">Genetic versus demographic stock structure of rainbow smelt in a large fragmented lake</a>. <em>Journal of Great Lakes Research</em>.</p>
-<p><strong>Euclide, PT</strong>, Kilpatrick, CW, Marsden, JE. 2019. <a href="https://doi.org/10.1016/j.jglr.2019.09.010">Genetic structure of lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100 years after commercial fishery closure</a>. <em>Journal of Great Lake Research</em>.</p>
-<p><strong>Euclide, PT</strong>, McKinney, GJ, Bootsma, M, Tarsa, T, Meek, MH, Larson, WA. 2019. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087">Attack of the PCR clones: Rates of clonality have little effect on RAD-seq genotype calls.</a> <em>Molecular Ecology Resources</em>.</p>
-<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C, Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque, H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M, Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and Guiguen, Y. 2019. <a href="https://doi.org/10.1111/1755-0998.13133">Characterization of a Y-specific duplication / insertion of the anti-Mullerian hormone type II receptor gene based on a chromosome-scale genome assembly of yellow perch, <em>Perca flavescens</em></a>. <em>Molecular Ecology Resources</em>.</p>
-<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. <a href="https://link.springer.com/article/10.1007/s10592-018-1107-2">Role of drainage and barriers in the genetic structuring of a tessellated darter population</a>. <em>Conservation Genetics</em>. 19: 1379-1392.</p>
-<p>Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, <strong>Euclide, PT</strong>, Balcerd, MD. 2018. <a href="https://linkinghub.elsevier.com/retrieve/pii/S0380133018300492">Trends in Mysis diluviana abundance in the Great Lakes, 2006-2016</a>. <em>Journal of Great Lakes Research</em>. 44: 590-599</p>
-<p><strong>Euclide, PT</strong>, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE. 2017. <a href="pdfs/euclide%20et%20al%202017%20b.pdf">Lack of population genetic structure of slimy sculpin in a large, fragmented lake</a>. <em>Ecology of Freshwater Fish</em>. 27: 699-709.</p>
-<p><strong>Euclide, PT</strong>, Hansson, S, Stockwell, JD. 2016. <a href="pdfs/Euclide%20et%20al%202017.pdf">Partial diel vertical migration in an omnivorous macroinvertebrate, Mysis diluviana.</a> <em>Hydrobiologia</em>. <a href="doi:10.1007/s10750-016-2982-5" class="uri">doi:10.1007/s10750-016-2982-5</a>. 787: 387-396.</p>
-<p><strong>Euclide, PT</strong>, Stockwell, JD. 2015. <a href="pdfs/Euclide%20and%20Stockwell%202015.pdf">Effect of gut content on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.</a> <em>Journal of Great Lake Research</em>. 41: 926-929.</p>
+<p>Johnson, A, Zipfel, K, Hallerman, E, Massure, W, <strong>Euclide,
+PT</strong>, Welsh, A. 2023. <a
+href="https://doi.org/10.1002/tafs.10406">Genomic evaluation of native
+Walleye in the Appalachian Region and the effects of stocking</a>.
+Transactions of the American Fisheries Society.</p>
+<p><strong>Euclide, PT</strong>, Larson, WA, Bootsma, ML, Faust, M,
+Miller, L, Scribner, KT, Stott, W, Wilson, CC, Latch, EK. 2022. <a
+href="https://doi.org/10.1002/ece3.9591">A new GTSeq resource to
+facilitate multijurisdictional research and management of walleye
+<em>Sander vitreus</em></a>. Ecology and Evolution.</p>
+<p>Shi, Y, Homola, J, <strong>Euclide, PT</strong>, Isermann, D,
+Caroffino, D, McPhee, M, Larson, W. 2022. <a
+href="https://doi.org/10.1111/eva.13475">High-density genomic data
+reveal fine-scale population structure and pronounced islands of
+adaptive divergence in lake whitefish (Coregonus clupeaformis) from Lake
+Michigan</a>. Evolutionary Applications.</p>
+<p><strong>Euclide, PT</strong>, Schmitt, JD, Kraus, RT, Cook, A,
+Markham, J. 2022. <a
+href="https://doi.org/10.1016/j.jglr.2022.05.020">Genome-wide genetic
+diversity may help identify fine-scale genetic structure among Lake
+Whitefish spawning stocks in Lake Erie</a>. Journal of Great Lakes
+Research.</p>
+<p><strong>Euclide, PT</strong>, Jasonowicz, A, Sitar, S, Fischer, G,
+Goetz, FW. 2022. <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/mec.16492">Further
+evidence from common garden rearing experiments of heritable traits
+separating lean and siscowet lake charr (Salvelinus namaycush)
+ecotypes</a>. Molecular Ecology. 10.1111/mec.16492</p>
+<p>Thorstensen, M, <strong>Euclide, PT</strong>, Jeffrey, J., Shi, Y,
+Treberg, J, Watkinson, D, Enders, E, Larson, W, Kobayashi, Y., Jeffries,
+K. 2022. <a
+href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.8898">A
+chromosomal inversion may facilitate adaptation despite periodic gene
+flow in a freshwater fish</a>. Ecology and Evolution. <a
+href="http://doi.org/10.1002/ece3.8898"
+class="uri">http://doi.org/10.1002/ece3.8898</a></p>
+<p><strong>Euclide, PT</strong>, Robinson, JM, MacDougall, T, Faust, MD,
+Bootsma, M, Chen, K, Larson, WA, Ludsin, Marschall, EA, Scribner, KT,
+Stott, W, Wilson, CC. 2021. Using Genomic Data to Guide Walleye
+Management in the Great Lakes. in Bruner, JC, and DeBruyne, RL, editors.
+Ecology, Management, and Culture of Sauger, Walleye, and Yellow
+Perch.</p>
+<p><strong>Euclide, PT</strong>, MacDougall, T, Robinson, JM, Faust, MD,
+Wilson, CC, Chen, K, Marschall, EA, Larson, W, Ludsin, S (2021). <a
+href="https://doi.org/10.1111/eva.13209">Mixed‐stock analysis using
+Rapture genotyping to evaluate stock‐specific exploitation of a walleye
+population despite weak genetic structure</a>. <em>Evolutionary
+Applications</em>, 00, eva.13209.</p>
+<p><strong>Euclide, PT</strong>, Lor, Y, Spear, MJ, Tajjioui, T, Vander
+Zanden, J, Larson, WA, Amberg, J (In Press). Efficient environmental DNA
+biodiversity assessment of nine north-temperate lakes and rivers with
+established monitoring programs. <em>Diversity and
+Distributions</em></p>
+<p>Bootsma, ML, Miller, L, Sass, GG, <strong>Euclide, PT</strong>,
+Larson, WA (2020). <a href="https://doi.org/10.1111/eva.13186">The
+ghosts of propagation past: haplotype information clarifies the relative
+influence of stocking history and phylogeographic processes on
+contemporary population structure of walleye (Sander vitreus)</a>.
+<em>Evolutionary Applications</em></p>
+<p>Riginos, C, Crandall, E, Liggins, L, Gaither, MR, Ewing, RB, Meyer,
+C, Andrews, KR, <strong>Euclide, PT</strong>, Titus, BM, Overgaard
+Therkildsen, N, Salces -Castellano, A, Stewart, LC, Toonen, RJ, Deck, J.
+2020. <a href="https://doi.org/10.1111/1755-0998.13269">Building a
+Global Genomics Observatory: using GEOME (the Genomic Observatories
+Metadatabase) to expedite and improve deposition and retrieval of
+genetic data and metadata for biodiversity research</a>. Molecular
+Ecology Resources.</p>
+<p>Robinson, KF, Bronte, CR, Bunnell, DB, <strong>Euclide, PT</strong>,
+Hondorp, D, Kornis, MS, Riley, S, Vinson, M, Volkel, SL, Weidel, B.
+2020. <a href="https://doi.org/10.1080/23308249.2020.1782341">A
+synthesis of the biology and ecology of sculpin species in the
+Laurentian Great Lakes and implications for the adaptive capacity of the
+benthic ecosystem</a>. <em>Reviews in Fisheries Science &amp;
+Aquaculture</em>.</p>
+<p><strong>Euclide, PT</strong>, Ruzich J, Hansen, SP, Rowe, D, Zorn,
+TG, Larson, WA. 2020. <a
+href="https://doi.org/10.1002/tafs.10238">Genetic structure of
+Smallmouth Bass (Micropterus dolomieu) in Lake Michigan and the Upper
+Mississippi drainages relates to habitat, distance, and drainage
+boundaries</a>. <em>Transactions of the American Fisheries
+Society</em>.</p>
+<p><strong>Euclide, PT</strong>, Pientka, B, Marsden, JE. In 2020. <a
+href="https://doi.org/10.1016/j.jglr.2020.02.009">Genetic versus
+demographic stock structure of rainbow smelt in a large fragmented
+lake</a>. <em>Journal of Great Lakes Research</em>.</p>
+<p><strong>Euclide, PT</strong>, Kilpatrick, CW, Marsden, JE. 2019. <a
+href="https://doi.org/10.1016/j.jglr.2019.09.010">Genetic structure of
+lake whitefish (Coregonus clupeaformis) in Lake Champlain, Vermont 100
+years after commercial fishery closure</a>. <em>Journal of Great Lake
+Research</em>.</p>
+<p><strong>Euclide, PT</strong>, McKinney, GJ, Bootsma, M, Tarsa, T,
+Meek, MH, Larson, WA. 2019. <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13087">Attack
+of the PCR clones: Rates of clonality have little effect on RAD-seq
+genotype calls.</a> <em>Molecular Ecology Resources</em>.</p>
+<p>Feron, R, Zahm, M, Cabu, C, Klopp, C, Roques, C, Bouchex, O, Eche, C,
+Valiere, S, Donnadieu, C, Haffray, P, Bestin, A, Morvezen, R, Acloque,
+H, <strong>Euclide, PT</strong>, Wen, M, Jouano, E, Schartl, M,
+Postlethwait, JH, Schraidt, C, Christie, MR, Larson, WA, Herpin, A, and
+Guiguen, Y. 2019. <a
+href="https://doi.org/10.1111/1755-0998.13133">Characterization of a
+Y-specific duplication / insertion of the anti-Mullerian hormone type II
+receptor gene based on a chromosome-scale genome assembly of yellow
+perch, <em>Perca flavescens</em></a>. <em>Molecular Ecology
+Resources</em>.</p>
+<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. <a
+href="https://link.springer.com/article/10.1007/s10592-018-1107-2">Role
+of drainage and barriers in the genetic structuring of a tessellated
+darter population</a>. <em>Conservation Genetics</em>. 19:
+1379-1392.</p>
+<p>Jude, DJ, Rudstam, LG, Holda, TJ, Watkins, JM, <strong>Euclide,
+PT</strong>, Balcerd, MD. 2018. <a
+href="https://linkinghub.elsevier.com/retrieve/pii/S0380133018300492">Trends
+in Mysis diluviana abundance in the Great Lakes, 2006-2016</a>.
+<em>Journal of Great Lakes Research</em>. 44: 590-599</p>
+<p><strong>Euclide, PT</strong>, Flores, NM, Wargo, MJ, Kilpatrick, CW,
+Marsden, JE. 2017. <a href="pdfs/euclide%20et%20al%202017%20b.pdf">Lack
+of population genetic structure of slimy sculpin in a large, fragmented
+lake</a>. <em>Ecology of Freshwater Fish</em>. 27: 699-709.</p>
+<p><strong>Euclide, PT</strong>, Hansson, S, Stockwell, JD. 2016. <a
+href="pdfs/Euclide%20et%20al%202017.pdf">Partial diel vertical migration
+in an omnivorous macroinvertebrate, Mysis diluviana.</a>
+<em>Hydrobiologia</em>. <a href="doi:10.1007/s10750-016-2982-5"
+class="uri">doi:10.1007/s10750-016-2982-5</a>. 787: 387-396.</p>
+<p><strong>Euclide, PT</strong>, Stockwell, JD. 2015. <a
+href="pdfs/Euclide%20and%20Stockwell%202015.pdf">Effect of gut content
+on δ15N, δ13C, and C:N of experimentally- fed Mysis diluvaiana.</a>
+<em>Journal of Great Lake Research</em>. 41: 926-929.</p>
 <hr />
 </div>
 <div id="selected-reaearch-presentations" class="section level2">
 <h2>SELECTED REAEARCH PRESENTATIONS</h2>
 <hr />
 <p>(Presenter bolded)</p>
-<p><strong>Euclide, PT</strong>, Dixon, B, Faust, M, Miller, L, Stott, W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more nuanced picture of walleye population structure in the Great Lakes. International Association of Great Lakes Research. Virtual conference <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Bootsma, M, Meek, M, McKinney, G, Larson, W 2019. Attack of the clones The influence of PCR clones on RAD-seq genotype calls. International Association of Great Lakes Research. Brockport, New York. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Ruzich, J, Hansen, S, Rowe, D, Zorn, T, Larson, W 2019. Population genetic structure of smallmouth bass in inland Wisconsin and Lake Michigan. Wisconsin American Fisheries Society. Greenbay Wisconsin. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Larson, W 2018. The current state of walleye genomic research in Lake Erie. Lake Erie -Inland Waters Annual Review. Columbus Ohio. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Marsden, JE 2018. Role of drainage and barriers in the genetic structuring of a tessellated darter metapopulation. Lake Champlain Research Conference. Burlington, Vermont <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Marsden, JE 2017. Movement of walleye in Lake Champlain: forty years of mark-recapture data. International Association of Great Lakes Research 2017 meeting. Detroit, Michigan <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Marsden, JE, Wargo, MJ, Flores, NM, Kilpatrick, CW 2017. Genetic structure of slimy sculpin (<em>Cottus cognatus</em>) populations in lakes. Canadian Conference For Fisheries Research, Montreal, Quebec. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Parent, T, Gonzalez, E, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE 2015. Effect of Fish Dispersal Ability on Sensitivity to Habitat Fragmentation in a Large Lake. International Association of Great Lakes Research. Guelph, Ontario. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Parent, T, Gonzalez, E, Flores, NM, Wargo, MJ, Kilpatrick, CW, Marsden, JE 2015. Effect of Fish Dispersal Ability on Sensitivity to Habitat Fragmentation in a Large Lake. American Fisheries Society meeting. Portland, Oregon. <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Strayer, N, Stockwell, JD. 2015. Is Mysis in decline in the Laruentian Great Lakes?. 2015 International Association of Great Lakes Research 2015 meeting. Burlington, Vermont <em>[poster]</em></p>
-<p><strong>Euclide, PT</strong>, Stockwell, JD. 2014. Fixed versus plastic partial migration of the aquatic macroinvertebrate, <em>Mysis diluviana</em>, in Lake Champlain. 2014 Joint Aquatic Sciences Meeting. Portland, Oregon <em>[poster]</em></p>
-<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of <em>Mysis diluviana</em>. RSENR Graduate Student Research Symposium, Vermont <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of <em>Mysis diluviana</em>. University of Vermont Student Research Conference, Vermont <em>[oral presentation]</em></p>
-<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological plasticity in the diel vertical migration of <em>Mysis diluviana</em>. 2013 Lake Champlain Research Consortium Student Symposium <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Yin, X, Clapp, C, Ruetz, C, Hook, T,
+Christie, M. 2022. Yellow perch population and habitat use in Lake
+Michigan. Lake Michigan Technical Committee. [oral presentation]</p>
+<p><strong>Euclide, PT</strong>, Yin, X, Ruetz, C, Hook, T, Christie, M.
+2022. Genome re-sequencing reveals genetic differences between Lake
+Michigan and drowned river mouth yellow perch. Joint Aquatic Sciences
+Meeting. [oral presentation]</p>
+<p><strong>Euclide, PT</strong>, Dixon, B, Faust, M, Miller, L, Stott,
+W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more
+nuanced picture of walleye population structure in the Great Lakes.
+International Association of Great Lakes Research. Virtual conference
+<em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K,
+Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019.
+Stock Structure and Contribution of West and East Basin Walleye to
+Recreational and Commercial Fisheries in Lake Erie. American Fisheries
+Society, Reno Nevada. <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Bootsma, M, Meek, M, McKinney, G,
+Larson, W 2019. Attack of the clones The influence of PCR clones on
+RAD-seq genotype calls. International Association of Great Lakes
+Research. Brockport, New York. <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Ruzich, J, Hansen, S, Rowe, D, Zorn, T,
+Larson, W 2019. Population genetic structure of smallmouth bass in
+inland Wisconsin and Lake Michigan. Wisconsin American Fisheries
+Society. Greenbay Wisconsin. <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Larson, W 2018. The current state of
+walleye genomic research in Lake Erie. Lake Erie -Inland Waters Annual
+Review. Columbus Ohio. <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Marsden, JE 2018. Role of drainage and
+barriers in the genetic structuring of a tessellated darter
+metapopulation. Lake Champlain Research Conference. Burlington, Vermont
+<em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Marsden, JE 2017. Movement of walleye
+in Lake Champlain: forty years of mark-recapture data. International
+Association of Great Lakes Research 2017 meeting. Detroit, Michigan
+<em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Marsden, JE, Wargo, MJ, Flores, NM,
+Kilpatrick, CW 2017. Genetic structure of slimy sculpin (<em>Cottus
+cognatus</em>) populations in lakes. Canadian Conference For Fisheries
+Research, Montreal, Quebec. <em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Parent, T, Gonzalez, E, Flores, NM,
+Wargo, MJ, Kilpatrick, CW, Marsden, JE 2015. Effect of Fish Dispersal
+Ability on Sensitivity to Habitat Fragmentation in a Large Lake.
+International Association of Great Lakes Research. Guelph, Ontario.
+<em>[oral presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Parent, T, Gonzalez, E, Flores, NM,
+Wargo, MJ, Kilpatrick, CW, Marsden, JE 2015. Effect of Fish Dispersal
+Ability on Sensitivity to Habitat Fragmentation in a Large Lake.
+American Fisheries Society meeting. Portland, Oregon. <em>[oral
+presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Strayer, N, Stockwell, JD. 2015. Is
+Mysis in decline in the Laruentian Great Lakes?. 2015 International
+Association of Great Lakes Research 2015 meeting. Burlington, Vermont
+<em>[poster]</em></p>
+<p><strong>Euclide, PT</strong>, Stockwell, JD. 2014. Fixed versus
+plastic partial migration of the aquatic macroinvertebrate, <em>Mysis
+diluviana</em>, in Lake Champlain. 2014 Joint Aquatic Sciences Meeting.
+Portland, Oregon <em>[poster]</em></p>
+<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological
+plasticity in the diel vertical migration of <em>Mysis diluviana</em>.
+RSENR Graduate Student Research Symposium, Vermont <em>[oral
+presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological
+plasticity in the diel vertical migration of <em>Mysis diluviana</em>.
+University of Vermont Student Research Conference, Vermont <em>[oral
+presentation]</em></p>
+<p><strong>Euclide, PT</strong>, Stockwell, JD. 2013. Physiological
+plasticity in the diel vertical migration of <em>Mysis diluviana</em>.
+2013 Lake Champlain Research Consortium Student Symposium <em>[oral
+presentation]</em></p>
 <hr />
 </div>
 <div id="invited-talks" class="section level2">
 <h2>INVITED TALKS</h2>
 <hr />
 <p>(Presenter bolded)</p>
-<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis of East Basin walleye. Lake Erie Committee.</p>
-<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Applications of Genomic Data for Walleye Management in Lake Erie. Walleye Task Group meeting.</p>
-<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Bootsma, M, Stott, W, Scribner, K, Larson, WA. 2020. Using Genomic Data to Guide Walleye Management in the Great Lakes. American Fisheries Society, Columbus Ohio</p>
-<p><strong>Euclide, PT</strong>. 2020. Lake Champlain walleye report. Vermont Fish and Wildlife Department. Essex, Vermont</p>
-<p><strong>Euclide, PT</strong>. 2020. Defining Connectivity of Great Lakes Smallmouth Bass Populations Using Genomics and Telemetry. Great Lakes Fishery Commission Board of Technical Experts Meeting. Ann Arbor, Michigan</p>
-<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019. Stock Structure and Contribution of West and East Basin Walleye to Recreational and Commercial Fisheries in Lake Erie. American Fisheries Society, Reno Nevada.</p>
-<p><strong>Euclide, PT</strong>, 2019. 23andMe for smallmouth bass: Using genetics to identify genetic differences among populations. Smallmouth Bass Public Meeting, Sturgeon Bay, WI</p>
-<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife Department. Essex, VT</p>
-<hr />
-</div>
-<div id="data-publications" class="section level2">
-<h2>DATA PUBLICATIONS</h2>
-<hr />
-<ul>
-<li><p>Lake Champlain Mysis Stable Isotopes. <a href="https://knb.ecoinformatics.org/#view/knb.749.1">KNB.</a></p></li>
-<li><p>Mysis Density in North America. <a href="https://peter-euclide.shinyapps.io/Mysis_density_app/">RShiny.</a></p></li>
-</ul>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K,
+Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M,
+Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis
+of East Basin walleye. Lake Erie Committee.</p>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K,
+Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M,
+Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Applications of
+Genomic Data for Walleye Management in Lake Erie. Walleye Task Group
+meeting.</p>
+<p><strong>Euclide, PT</strong>, Lusdin, SA, Marschall, EA, Chen, K,
+Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Bootsma, M, Stott, W,
+Scribner, K, Larson, WA. 2020. Using Genomic Data to Guide Walleye
+Management in the Great Lakes. American Fisheries Society, Columbus
+Ohio</p>
+<p><strong>Euclide, PT</strong>. 2020. Lake Champlain walleye report.
+Vermont Fish and Wildlife Department. Essex, Vermont</p>
+<p><strong>Euclide, PT</strong>. 2020. Defining Connectivity of Great
+Lakes Smallmouth Bass Populations Using Genomics and Telemetry. Great
+Lakes Fishery Commission Board of Technical Experts Meeting. Ann Arbor,
+Michigan</p>
+<p><strong>Euclide, PT</strong>, Ludsin, SA, Marschall, EA, Chen, K,
+Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Larson, WA, 2019.
+Stock Structure and Contribution of West and East Basin Walleye to
+Recreational and Commercial Fisheries in Lake Erie. American Fisheries
+Society, Reno Nevada.</p>
+<p><strong>Euclide, PT</strong>, 2019. 23andMe for smallmouth bass:
+Using genetics to identify genetic differences among populations.
+Smallmouth Bass Public Meeting, Sturgeon Bay, WI</p>
+<p><strong>Euclide, PT</strong>, Marsden, JE. 2018. Habitat
+fragmentation in the Lake Champlain basin. Vermont Fish and Wildlife
+Department. Essex, VT</p>
 <hr />
 </div>
 <div id="grants-and-awards" class="section level2">
 <h2>GRANTS and AWARDS</h2>
 <hr />
-<p><strong>2018 – Pres.</strong> Using genomics to delineate stock structure and create a standardized genetic resource for great lakes walleye. Great Lakes Fishery Commission (co-author): $195,670</p>
-<p><strong>2016 – 2017</strong> Quantifying the consequences of water quality changes and habitat fragmentation on the genetic structure of aquatic organisms in the Lake Champlain basin. Water Resources Research Grant (primary author): $10,000</p>
-<p><strong>2014</strong> ASLO Student Travel Grant (primary author): $500</p>
-<p><strong>2014 – 2015</strong> Sub-lethal consequences of blue-green algae on nutrition and fitness in secondary consumers. Lintilhac Foundation Research Grant (primary author): $10,000</p>
-<p><strong>2013</strong> Graduate Student Senate Travel Grant (primary author): $300</p>
-<p><strong>2012, 2013</strong> Rubenstein School Graduate Student Association Mini-Grant (primary author): $200</p>
+<p><strong>2023 – 2025</strong> Understanding Klondike Reef ecotypes for
+lake trout restoration in the lower Great Lakes. US Fish and Wildlife
+Great Lakes Fish and Wildlife Restoration Act. Co-PI: $ 179,250.</p>
+<p><strong>2023 – 2024</strong> Delineation of stock structure and
+habitat usage of Lake Superior walleye to inform restoration objectives.
+US Fish and Wildlife Great Lakes Fish and Wildlife Restoration Act.
+Co-PI: $188,653.75.</p>
+<p><strong>2023 - 2025</strong> Defining connectivity of Great Lakes
+smallmouth bass populations using genomics and telemetry. Great Lakes
+Fishery Commission PI: $254,913. Grant No. TBD</p>
+<p><strong>2022 - 2024</strong> Using adaptive genetic variation to
+improve lake whitefish genetic stock assignment in Lake Erie. US Fish
+and Wildlife Great Lakes Fish and Wildlife Restoration Act. PI:
+$101,140. Grant No: F22AP02898-00</p>
+<p><strong>2022 - 2023</strong> Supplemental genetic analysis funding
+for the Alaska hatchery research program. Alaska Department of Fish and
+Game internal funding contract. PI. $144,694.</p>
+<p><strong>2019 – 2022</strong> Using genomics to delineate stock
+structure and create a standardized genetic resource for great lakes
+walleye. Great Lakes Fishery Commission (co-author): $195,670</p>
+<p><strong>2016 – 2017</strong> Quantifying the consequences of water
+quality changes and habitat fragmentation on the genetic structure of
+aquatic organisms in the Lake Champlain basin. Water Resources Research
+Grant (primary author): $10,000</p>
+<p><strong>2014</strong> ASLO Student Travel Grant (primary author):
+$500</p>
+<p><strong>2014 – 2015</strong> Sub-lethal consequences of blue-green
+algae on nutrition and fitness in secondary consumers. Lintilhac
+Foundation Research Grant (primary author): $10,000</p>
+<p><strong>2013</strong> Graduate Student Senate Travel Grant (primary
+author): $300</p>
+<p><strong>2012, 2013</strong> Rubenstein School Graduate Student
+Association Mini-Grant (primary author): $200</p>
 <hr />
 </div>
 <div id="research-and-profesional-experience" class="section level2">
@@ -415,42 +639,68 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div id="workshops-attended" class="section level3">
 <h3>Workshops Attended:</h3>
 <ul>
-<li><p>Physalia: Genome Assembly Using Oxford Nanopore Sequencing - <em>2020</em></p></li>
-<li><p>GLFC Sculpin in the Great Lakes workshop - <em>2017; 2018</em></p></li>
-<li><p>Structured Decision-Making and Barrier Removals - <em>2016</em></p></li>
-<li><p>FishR Workshop for Analyzing Fisheries Data - <em>2014</em></p></li>
+<li><p>Physalia: Genome Assembly Using Oxford Nanopore Sequencing -
+<em>2020</em></p></li>
+<li><p>GLFC Sculpin in the Great Lakes workshop - <em>2017;
+2018</em></p></li>
+<li><p>Structured Decision-Making and Barrier Removals -
+<em>2016</em></p></li>
+<li><p>FishR Workshop for Analyzing Fisheries Data -
+<em>2014</em></p></li>
 </ul>
 </div>
 <div id="workshops-facilitated" class="section level3">
 <h3>Workshops Facilitated:</h3>
 <ul>
-<li><p><a href="https://peuclide.github.io/R-expo-2021/">R-Expo</a>, American Fisheries Society - Wisconsin Chapter <em>2020, 2021</em></p></li>
-<li><p>Champlain Research Experience for Students and Teachers (CREST) Workshop: <em>Summers, 2014 - 2016</em>, University of Vermont</p></li>
-<li><p>Communicating Science, REU Workshop: <em>Summers 2014 &amp; 2015</em>, University of Vermont</p></li>
+<li><p><a
+href="https://iiseagrant.org/work/fisheries/programs-initiatives/fisheries-workshops/">Spring
+and fall Illinois-Indiana Sea Grant Lake Michigan Fisheries
+Workshops</a>.</p></li>
+<li><p><a href="https://peuclide.github.io/R-expo-2021/">R-Expo</a>,
+American Fisheries Society - Wisconsin Chapter <em>2020,
+2021</em></p></li>
+<li><p>Champlain Research Experience for Students and Teachers (CREST)
+Workshop: <em>Summers, 2014 - 2016</em>, University of Vermont</p></li>
+<li><p>Communicating Science, REU Workshop: <em>Summers 2014 &amp;
+2015</em>, University of Vermont</p></li>
 </ul>
 </div>
 <div id="manuscripts-reviewed-for" class="section level3">
 <h3>Manuscripts reviewed for:</h3>
-<p>Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources</p>
+<p>Journal of Great Lakes Research • Hydrobiologia • Biological
+Invasions • Canadian Journal of Fisheries and Aquatic Science • North
+American Journal of Fisheries Management • Journal of Fish Biology •
+Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology
+Resources • Molecular Ecology • Conservation Science and Practice •
+Conservation Genetics</p>
+</div>
+<div id="grants-reviewed-for" class="section level3">
+<h3>Grants reviewed for:</h3>
+<p>Great Lakes Fishery Trust – 2023 • Washington Sea Grant - 2023</p>
 </div>
 <div id="academic-research-technician" class="section level3">
 <h3>Academic research technician:</h3>
 <ul>
-<li><p>Population genetics and the evolution of variable sex ratios in populations of <em>Lobelia siphilitica</em>. <em>2011-2012</em></p></li>
-<li><p>Bacterial community composition and colonization of crayfish in North Eastern Ohio streams. <em>2010</em></p></li>
+<li><p>Population genetics and the evolution of variable sex ratios in
+populations of <em>Lobelia siphilitica</em>. <em>2011-2012</em></p></li>
+<li><p>Bacterial community composition and colonization of crayfish in
+North Eastern Ohio streams. <em>2010</em></p></li>
 </ul>
 </div>
 <div id="industry-technician" class="section level3">
 <h3>Industry technician:</h3>
 <ul>
-<li>Collection and husbandry of milfoil weevil as a biological control for <em>Eurasian milfoil</em>, EnviroScience Inc. <em>2009</em></li>
+<li>Collection and husbandry of milfoil weevil as a biological control
+for <em>Eurasian milfoil</em>, EnviroScience Inc. <em>2009</em></li>
 </ul>
 </div>
 <div id="volunteer-undergraduate-research" class="section level3">
 <h3>Volunteer undergraduate research:</h3>
 <ul>
-<li><p>Winter decomposition rates of forest leaf litter associated with fungal and invertebrate diversity. <em>2012</em></p></li>
-<li><p>Macroinvertebrate communities of stream different types of stream leaf packs. <em>2009 - 2012</em></p></li>
+<li><p>Winter decomposition rates of forest leaf litter associated with
+fungal and invertebrate diversity. <em>2012</em></p></li>
+<li><p>Macroinvertebrate communities of stream different types of stream
+leaf packs. <em>2009 - 2012</em></p></li>
 </ul>
 <hr />
 </div>
@@ -458,8 +708,11 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div id="outreach-and-teaching" class="section level2">
 <h2>OUTREACH and TEACHING</h2>
 <hr />
-<div id="radio-interview-with-door-county-fishing-report-outdoors-show-2019" class="section level4">
-<h4>Radio interview with Door County Fishing Report / Outdoors Show <em>2019</em></h4>
+<div
+id="radio-interview-with-door-county-fishing-report-outdoors-show-2019"
+class="section level4">
+<h4>Radio interview with Door County Fishing Report / Outdoors Show
+<em>2019</em></h4>
 </div>
 <div id="guest-lectures-conservation-biology" class="section level4">
 <h4>Guest lectures, Conservation Biology:</h4>
@@ -467,14 +720,18 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 </div>
 <div id="echo-lake-aquarium-educator-fellowship" class="section level4">
 <h4>ECHO Lake Aquarium Educator Fellowship:</h4>
-<p><em>2013 - 2014</em>, University of Vermont and ECHO Lake Aquarium and Science Center.</p>
+<p><em>2013 - 2014</em>, University of Vermont and ECHO Lake Aquarium
+and Science Center.</p>
 </div>
 <div id="teaching-assistantships" class="section level4">
 <h4>Teaching Assistantships:</h4>
 <ul>
-<li><p><strong>Ecosystem Management</strong>, <em>Spring 2014</em>, University of Vermont.</p></li>
-<li><p><strong>Limnology</strong>, <em>Fall 2012 &amp; 2013</em>, University of Vermont.</p></li>
-<li><p><strong>Ecology, Ecosystems and Environment</strong>, <em>Spring 2013</em>, University of Vermont</p></li>
+<li><p><strong>Ecosystem Management</strong>, <em>Spring 2014</em>,
+University of Vermont.</p></li>
+<li><p><strong>Limnology</strong>, <em>Fall 2012 &amp; 2013</em>,
+University of Vermont.</p></li>
+<li><p><strong>Ecology, Ecosystems and Environment</strong>, <em>Spring
+2013</em>, University of Vermont</p></li>
 </ul>
 <hr />
 </div>
@@ -485,28 +742,35 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div id="field" class="section level3">
 <h3>Field:</h3>
 <ul>
-<li><p><strong>Fisheries:</strong> Fyke netting, gill netting, beach seineing, bottom trawling, electrofishing</p></li>
-<li><p><strong>Limnology:</strong> Plankton nets, niskin bottles, Schindler-Patalas traps, CTD</p></li>
-<li><p><strong>Taxonomic:</strong> Basic fish, zooplankton and insect identification</p></li>
+<li><p><strong>Fisheries:</strong> Fyke netting, gill netting, beach
+seineing, bottom trawling, electrofishing</p></li>
+<li><p><strong>Limnology:</strong> Plankton nets, niskin bottles,
+Schindler-Patalas traps, CTD</p></li>
+<li><p><strong>Taxonomic:</strong> Basic fish, zooplankton and insect
+identification</p></li>
 </ul>
 </div>
 <div id="computer" class="section level3">
 <h3>Computer:</h3>
 <ul>
 <li><p><strong>Graphing:</strong> R, GGPlot, Excel, and Prism</p></li>
-<li><p><strong>Statistical analysis:</strong> R, JMP, SPSS, STRUCTURE, Arlequin, ADMIXTURE, NeEstimator, FSTAT, Microchecker and other population genetic analysis</p></li>
-<li><p><strong>App and Web development:</strong> RShiny, RMarkdown, GitPages</p></li>
+<li><p><strong>Statistical analysis:</strong> R, JMP, SPSS, STRUCTURE,
+Arlequin, ADMIXTURE, NeEstimator, FSTAT, Microchecker and other
+population genetic analysis</p></li>
+<li><p><strong>App and Web development:</strong> RShiny, RMarkdown,
+GitPages</p></li>
 </ul>
 </div>
 <div id="laboratory" class="section level3">
 <h3>Laboratory:</h3>
 <ul>
-<li><p><strong>Genetic:</strong> PCR, gel electrophoresis, microsatellite analysis, DNA extractions using DNEasy kit, Gentra PurGene kit, and chelex.</p></li>
-<li><p><strong>Stable isotope:</strong> analysis and sample preparation</p></li>
-<li><p><strong>Eco-physiology:</strong> Blazka type swim-tunnel respirometry and swimming performance,</p></li>
-<li><p><strong>Taxonomy:</strong> dichotomous key identification</p></li>
-<li><p><strong>Animal husbandry:</strong> zebra fish, Mysis, daphnia, artemia, and algae cultureing</p></li>
-<li><p><strong>Greenhouse:</strong> plant germination and care, green house maintenance and pest control</p></li>
+<li><p><strong>Genetic:</strong> Illumina library preperation, GT-seq
+preperation, PCR, gel electrophoresis, microsatellite analysis, DNA
+extractions using DNEasy kit, Gentra PurGene kit, and chelex.</p></li>
+<li><p><strong>Stable isotope:</strong> analysis and sample
+preparation</p></li>
+<li><p><strong>Eco-physiology:</strong> Blazka type swim-tunnel
+respirometry and swimming performance,</p></li>
 </ul>
 <hr />
 </div>
@@ -515,14 +779,19 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <h2>ADDITIONAL RESOURCES:</h2>
 <hr />
 <ul>
-<li><p><a href="https://www.researchgate.net/profile/Peter_Euclide">Researchgate</a></p></li>
+<li><p><a
+href="https://www.researchgate.net/profile/Peter_Euclide">Researchgate</a></p></li>
 <li><p><a href="https://github.com/peuclide">GitHub</a></p></li>
 <li><p><a href="pdfs/CV.pdf">Download CV</a></p></li>
 </ul>
 </div>
 </div>
 <div class="col-xs-12 col-sm-3">
-<p><br/> <img src="photos/Fig_2_scul.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="photos/FullMap_EFF_revisions_CWlabeled.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="photos/Figure_5_tess.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"> <img src="photos/Figure%201.png" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"></p>
+<p><br/>
+<img src="photos/Fig_2_scul.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/FullMap_EFF_revisions_CWlabeled.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/Figure_5_tess.jpg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="photos/IMG_0121.jpeg" style="float: left; width: 100%; margin-right: 1%; margin-bottom: 0.5em;"></p>
 
 <p>2021 Peter Euclide, peuclide@purdue.edu. All rights reserved.</p>
 
