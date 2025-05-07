@@ -1,0 +1,142 @@
+---
+title: Research
+---
+
+<img src="photos/purdueBoat.jpg" style="width:100%;" align = "top"/>
+
+:::: {style="display: grid; grid-template-columns: 60% 40%; grid-column-gap: 10px; "}
+
+::: {}
+
+
+# Topic Areas
+
+***  
+## Molecular drivers of ecotypic divergence
+***
+
+Populations are often comprised of discrete ecotypes with distinct morphology or behavior in the absence of reproductive isolation. One of my research objectives is to identify both the molecular mechanisms and environmental drivers of ecotypic divergence. Understanding how local adaptation within a population can lead to diverged ecotypes has important implications for speciation research and the conservation diversity. My work uses molecular techniques, such as RAD-sequencing and whole-genome-resequencing, to identify putatively adaptive variance among ecotypes or populations. Using these approaches, I have been able to identify SNPs that are linked to lipid content in F2 experimental lake trout crosses (right) and help to uncover how structural variants contribute to spawning ecotypes in sockeye salmon.
+
+:::
+
+::: {}
+
+<br/><br/><br/><br/>
+
+![Correlation between the number of positive effect alleles at loci putatively associated with lipid content in lake trout ecotypes. ](photos/fat_cors.png)
+
+:::
+
+::::
+
+***  
+
+:::: {style="display: grid; grid-template-columns: 40% 60%; grid-column-gap: 10px "}
+
+::: {}
+
+<br/>
+
+![](photos/walleye.jpg)
+
+
+![](photos/IMG_4655.jpg)
+
+
+
+:::
+
+::: {}
+
+***  
+## Improving management decisions with genetic data
+***
+
+Recreational and commercial fisheries are a valuable industry throughout the world. Exploited fish populations are exposed to a suite of anthropogenic influences often not experienced by other species, such as direct harvest, stocking, and translocations. In the Great Lakes, walleye support a large fishery which has resulted in a patchwork of natural, stocked, and recovering spawning populations or stocks, each contributing differently to the overall population abundance. The complex combination of naturally reproducing and recovering stocks require managers to consider multiple discrete spawning populations when estimating stock recruitment and determining sustainable harvest quotas. My research aims to (1) understand how discrete walleye stocks throughout the Great Lakes contribute to a large Great Lakes wide metapopulation, and (2) how spawning site fidelity and dispersal help to sustain exploited populations and result in local adaptation.
+:::
+
+::::
+
+***
+
+
+# Ongoing Research
+
+***  
+### Understanding Klondike Reef ecotypes for lake trout restoration in the lower Great Lakes 
+***
+
+Efforts to recover lake trout in the Laurentian Great Lakes have focused on the lean ecotype in nearshore areas, neglecting deeper, offshore regions historically inhabited by deep-water lake trout. A holistic restoration approach requires diverse ecotypes adapted to different depths. Reestablishing a deep-water ecotype is vital for the health of the native fish community. Lake Superior hosts the only existing non-lean ecotypes in the Great Lakes. Non-lean broodstocks for stocking could be sourced from Klondike Reef, which is a spawning site for  leans, humpers, redfins, and siscowets. Our research is combining histology, geomorphometrics, trophic ecology, and whole-genome sequencing of all four ecotypes present on Klondike Reef to improve identification of ecotypes for broodstock selection and investigate what reproductive barriers may be limiting inter-ecotype hybridization.
+
+![](photos/humper.jpg)
+
+
+__Project Students__
+
+![Max Moran](photos/Moran24.jpg)
+
+
+Max is a MSc student investigating the morphometric diversity of the lake trout ecotypes present on Klondike Reef.
+
+***  
+### Understanding Klondike Reef ecotypes for lake trout restoration in the lower Great Lakes 
+***
+
+
+***  
+
+<br/><br/>
+
+# Additional research areas
+
+***
+
+:::: {style="display: grid; grid-template-columns: 40% 60%; grid-column-gap: 10px; "}
+
+::: {}
+
+
+<br/><br/>
+
+![](photos/mysis2.jpg)
+
+
+:::
+
+::: {}
+
+***  
+## Applying trophic markers to trace movement 
+***
+
+When populations are not fully reproductively isolated, genetic markers provide limited information about functional connectivity. Using trophic markers such as of stable isotopes and basic demographic data can help identify ecological breaks in population connectivity.
+
+:::
+
+::::
+
+***
+
+:::: {style="display: grid; grid-template-columns: 60% 40%; grid-column-gap: 10px; "}
+
+::: {}
+***  
+## Quantifying environmental stressers
+***
+
+Understanding how local environment influences individual fitenss is an important step in determining how species adapt to novel stressors. One emerging stressor in aquatic habitats is harmful cyanobacteria blooms. Because cyanobacteria have little nutritional value for zooplankton, it is possible that higher trophic levels such as fish are impacted by the influx of nutrition poor cyanobacteria at the base of the food web. Working with a colleague trained in lipid analysis, we conducted a two-month experiment to determine how essential fatty acid poor diets, like what might happen during a long cyanobacteria bloom, impact fish fatty acid content, swimming performance and respiration.
+
+:::
+
+::: {}
+
+  <iframe src="https://player.vimeo.com/video/170673352" width="300" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/170673352">JunkFoodHypothesis</a> from <a href="https://vimeo.com/user38109713">Victoria Pinheiro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+:::
+
+::::
+
+***
+
+

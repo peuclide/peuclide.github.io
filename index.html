@@ -11,9 +11,9 @@
 
 
 
-<title>About ¶ </title>
+<title>About </title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -188,8 +188,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -197,16 +197,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -286,7 +279,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><span style='font-size: 0px'>About ¶
+<h1 class="title toc-ignore"><span style='font-size: 0px'>About<br />
 </style></h1>
 
 </div>
@@ -296,7 +289,6 @@ $(document).ready(function () {
 </script>
 <div class="row">
 <div class="col-xs-12 col-sm-12 text-left">
-
 <hr />
 </script>
 <br/>
@@ -309,14 +301,14 @@ $(document).ready(function () {
 <p><br/></p>
 <div id="peter-euclide-ph.d." class="section level1">
 <h1><strong>Peter Euclide, Ph.D.</strong></h1>
-<p>I am a research scientist and Illinois-Indiana Sea Grant Fisheries
-Specialist working at Purdue University. My research uses combination of
-modern genomic techniques and ecology to answer questions related to
-animal movement and local adaptation that inform management and
-conservation. My current research centers around the use of whole genome
-and reduced representation sequencing to develop GT-seq and Rapture
-panels to study fish evolution and population structure in the Great
-Lakes.</p>
+<p>I am a Assistant Research Professor in the Paul O’Neill School of
+Public and Envrionmental Affairs at Indiana University. My research uses
+combination of modern genomic techniques and ecology to answer questions
+related to animal movement and local adaptation that inform management
+and conservation. My current research centers around the use of whole
+genome and reduced representation sequencing to develop GT-seq and
+Rapture panels to study fish evolution and population structure in the
+Great Lakes.</p>
 <p>Work areas:</p>
 <ul>
 <li><a
@@ -345,8 +337,11 @@ consequences of habitat fragmentation</a></li>
 <br/>
 <div class="row">
 <div class="col-xs-12 col-sm-12 text-center">
-
 <hr />
+</div>
+</div>
+</div>
+</div>
 
 <p>2021 Peter Euclide, peuclide@purdue.edu. All rights reserved.</p>
 

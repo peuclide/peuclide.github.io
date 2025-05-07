@@ -61,10 +61,10 @@ Recreational and commercial fisheries are a valuable industry throughout the wor
 
 
 ***  
-# <a name="hab-frag"></a>Genetic consequences of habitat fragmentation
+# <a name="hab-frag"></a>Genetic consequences of human interference
 ***
 
-Humans have altered the natural connectivity of fish populations through constructing damns and causeways that limit fish dispersal and ultimately gene flow which can lead to population sub-structuring across a species range. Many barriers affecting species throughout North America were built recently, and so I work at intercept between behavioral ecology and evolutionary biology using molecular techniques, long-term demography, and mark-recapture datasets to understand how populations have adjusted to lost connectivity. In Lake Champlain, I used population genetic and fisheries data to describe patterns of neutral genetic structure and population demographics of fish native to Lake Champlain which has been fragmented by seven causeways built during the early twentieth century. 
+Human activities have disrupted the natural connectivity of fish populations by constructing dams and causeways that limit fish dispersal, as well as by developing hatcheries and stocking practices that can alter gene flow. Many of these barriers, built across North America in recent years, have significant impacts on fish species. My work lies at the intersection of behavioral ecology and evolutionary biology, where I use molecular techniques, long-term demographic studies, and mark-recapture datasets to understand how fish populations have adapted to reduced connectivity and the influence of fisheries management.
 
 :::
 
