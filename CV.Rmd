@@ -1,7 +1,7 @@
 ---
 title: __Peter Euclide__
-author: peuclide@purdue.edu
-date: "August 1, 2023"
+author: peuclide@iu.edu
+date: "May 7, 2025"
 ---
 
 <style type="text/css">
@@ -59,6 +59,15 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-1212-0435" href="https://orcid.org/0000-0002-1212-0435" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-1212-0435</a></div>
 
 ***
+Yi, X, Schraidt, CE, Sparks, MM, __Euclide, PT__, Ruetz, CR, Höök, TO, Christie, MR. (In Press) Rapid, parallel recovery of commercially important fish populations in response to environmental remediation. Proceedings B.
+
+__Euclide, PT__, Khul, H, Wilson, CC, Scribner, K, Miller, L, Stott, W, Larson, WA. (2024). [Human impacts on Great Lakes Walleye Sander vitreus structure, diversity and local adaptation](https://doi.org/10.1111/mec.17558). Molecular Ecology. 
+
+Kuhl, H, __Euclide, PT__, Klopp C , Cabau C, Zahm M, Roques C, Iampietro C, Claire Kuchly C, Donnadieu C, Feron R, Parrinello H, Poncet C, Jaffrelo L, Confolent C, Wen M, Jouanno E, Bestin A12, Haffray P, Morvezen R, Rocha de Almeida T, Lecocq T, Schaerlinger B, Chardard D, Żarski D, Larson W, Postlethwait JH, Timirkhanov S, Kloas W, Wuertz S, Matthias Stöck M, Y Guiguen. 2024. [Multi-genome comparisons reveal gain-and-loss evolution of the anti-Mullerian hormone receptor type 2 gene, an old master sex determining gene, in Percidae](https://doi.org/10.1186/s12915-024-01935-9). BMC Biology. 
+
+__Euclide, PT__, Perry, C, Donabauer, SB, Greier, A, Hӧӧk, T. 2024. What’s good for fish is good for fishes: Interspecific consistency of growth, condition, and abundance among glacier lakes. North American Journal of Fisheries Management.
+
+__Euclide, PT__, Larson, WA, Shi, Y, Gruenthal, K, Christensen, K, Seeb, J, Seeb, L. 2023. [Conserved islands of divergence associated with adaptive variation in sockeye salmon are maintained by multiple mechanisms](10.22541/au.168371520.09492745/v1). Molecular Ecology. 
 
 Johnson, A, Zipfel, K, Hallerman, E, Massure, W, __Euclide, PT__, Welsh, A. 2023. [Genomic evaluation of native Walleye in the Appalachian Region and the effects of stocking](https://doi.org/10.1002/tafs.10406). Transactions of the American Fisheries Society. 
 
@@ -107,11 +116,14 @@ __Euclide, PT__, Stockwell, JD. 2015. [Effect of gut content on δ15N, δ13C, an
 ***
 ## SELECTED REAEARCH PRESENTATIONS
 ***
-(Presenter bolded)
 
-__Euclide, PT__, Yin, X, Clapp, C, Ruetz, C, Hook, T, Christie, M. 2022. Yellow perch population and habitat use in Lake Michigan. Lake Michigan Technical Committee. [oral presentation]
+Chandika, RG, Tallon A, __Euclide, PT__, Navarro D, Ott-Conn D, Blanchong J, DeYoung R, Walsh D, Latch E. 2023. A novel genomic resource (GT-seq) for white-tailed deer to inform management of chronic wasting disease. The wildlife Society. _[oral presentation]_
 
-__Euclide, PT__, Yin, X, Ruetz, C, Hook, T, Christie, M. 2022. Genome re-sequencing reveals genetic differences between Lake Michigan and drowned river mouth yellow perch. Joint Aquatic Sciences Meeting. [oral presentation]
+__Euclide, PT__, Yin, X, Clapp, C, Ruetz, C, Hook, T, Christie, M. 2023. Genome-wide differences between drowned river mouth and main-basin Lake Michigan Yellow Perch. The American Fisheries Society. _[oral presentation]_
+
+__Euclide, PT__, Yin, X, Clapp, C, Ruetz, C, Hook, T, Christie, M. 2022. Yellow perch population and habitat use in Lake Michigan. Lake Michigan Technical Committee. _[oral presentation]_
+
+__Euclide, PT__, Yin, X, Ruetz, C, Hook, T, Christie, M. 2022. Genome re-sequencing reveals genetic differences between Lake Michigan and drowned river mouth yellow perch. Joint Aquatic Sciences Meeting. _[oral presentation]_
 
 __Euclide, PT__, Dixon, B, Faust, M, Miller, L, Stott, W, Scribner, KT, Wilson, CC, Larson, WA 2020. Genomics provides a more nuanced picture of walleye population structure in the Great Lakes. International Association of Great Lakes Research. Virtual conference _[oral presentation]_
 
@@ -146,7 +158,23 @@ __Euclide, PT__, Stockwell, JD. 2013. Physiological plasticity in the diel verti
 ***
 ## INVITED TALKS
 ***
-(Presenter bolded)
+__Euclide, PT__. 2024. Human impacts on the recent evolutionary history of walleye in the Great Lakes. Paul H. O’Neill School of Public & Environmental Affairs, Indiana University.
+
+__Euclide, PT__. 2024. Human impacts on the recent evolutionary history of fishes in the Great Lakes. Department of Forestry and Natural Resources, Purdue University.
+
+__Euclide, PT__. 2024. Human impacts on the recent evolutionary history of fishes in the Great Lakes. Department of Fisheries and Wildlife, Michigan State University.
+
+__Euclide, PT__. 2024. The evolutionary consequences of interactions between fish and people in the Great Lakes. Institute For a Sustainable Future Great Lakes Science Initiative, Purdue University.
+
+__Euclide, PT__. 2023. Crash, stock, adapt: The recent evolutionary history of walleye in the Great Lakes. University of Wisconsin – Milwaukee School of Freshwater Sciences
+
+__Euclide, PT__. 2022. Considering both inter- and intra-population diversity in evolution and ecology research of freshwater fishes and fisheries. The Ohio State University Evolution, Ecology & Organismal Biology
+
+__Euclide, PT__. 2021. How population genetics protects walleye from overfishing in the Great Lake. Purdue Biology Department Seminar.
+
+__Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis of East Basin walleye. Lake Erie Committee. 
+
+__Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Applications of Genomic Data for Walleye Management in Lake Erie. Walleye Task Group meeting. 
 
 __Euclide, PT__, Lusdin, SA, Marschall, EA, Chen, K, Robinson, J, Faust, M, MacDougall, TM, Wilson, C, Chen K-Y, Bootsma, M, Dixon, B, Stott, W, Scribner, K, Larson, WA. 2021. Mixed Stock analysis of East Basin walleye. Lake Erie Committee. 
 
@@ -168,6 +196,13 @@ __Euclide, PT__, Marsden, JE. 2018. Habitat fragmentation in the Lake Champlain 
 ***
 ## GRANTS and AWARDS
 ***
+__2024 – 2026__	Genetic analysis of migratory and resident walleye from Saginaw Bay, the origins of two behaviors. Great Lakes Fishery Commission. PI: $11,508. Grant No: 2024_EUC_740004.
+
+__2024 – 2027__	Understanding Klondike Reef ecotypes for lake trout restoration in the lower Great Lakes. U.S. Fish And Wildlife Service. PI: $206,838. Grant No:  F24AC00387-00
+
+__2024 –2026__ 	Restoration assessment of nearshore reef habitat in inner Saginaw Bay. Michigan Department of Natural Resources. Co-PI: $220,000
+
+__2024 – 2025__	Assessment of bowfishing in Indiana: Interest-holders’ perspectives, harvest patterns and potential impacts. Indiana Department of Natural Resources. Co-PI: $395,057. 
 
 __2023 – 2025__	Understanding Klondike Reef ecotypes for lake trout restoration in the lower Great Lakes. US Fish and Wildlife Great Lakes Fish and Wildlife Restoration Act. Co-PI: $ 179,250. 
 
@@ -197,6 +232,9 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 ***
 
 ### Workshops Attended:
+- Great Lakes Recreational Fishing for Food Summit - _2024_
+
+- Equitable Grant Making Working Group. National Sea Grant Office - _2024_
 
 - Physalia: Genome Assembly Using Oxford Nanopore Sequencing - _2020_
 
@@ -221,7 +259,8 @@ __2012, 2013__	Rubenstein School Graduate Student Association Mini-Grant (primar
 Journal of Great Lakes Research • Hydrobiologia • Biological Invasions • Canadian Journal of Fisheries and Aquatic Science • North American Journal of Fisheries Management • Journal of Fish Biology • Ecology and Evolution • Genes • Fishes • PLoS1 • Molecular Ecology Resources • Molecular Ecology • Conservation Science and Practice • Conservation Genetics
 
 ### Grants reviewed for:
-Great Lakes Fishery Trust – 2023 • Washington Sea Grant - 2023
+
+Great Lakes Fishery Trust – 2023 • Washington Sea Grant – 2023 • Genome British Columbia’s GeneSolve Program – 2024 • The Legislative-Citizen Commission on Minnesota Resources (LCCMR) – 2024
 
 ### Academic research technician:
 
