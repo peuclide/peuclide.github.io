@@ -2,7 +2,7 @@
 title: Research
 ---
 
-<img src="photos/purdueBoat.jpg" style="width:100%;" align = "top"/>
+<img src="photos/ResearchCover.jpeg" style="width:100%;" align = "top"/>
 
 :::: {style="display: grid; grid-template-columns: 60% 40%; grid-column-gap: 10px; "}
 
@@ -19,7 +19,7 @@ Populations are often comprised of discrete ecotypes with distinct morphology or
 
 <br/><br/><br/><br/>
 
-![Correlation between the number of positive effect alleles at loci putatively associated with lipid content in lake trout ecotypes. ](photos/fat_cors.png)
+![](photos/MoranEye.jpeg)
 
 :::
 
