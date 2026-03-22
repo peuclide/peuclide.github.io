@@ -6,7 +6,7 @@ title: "<span style='font-size: 20px'>Zoom to see sample locations</style>"
 ```{r,  echo = FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 
 library(leaflet)
-library(rgdal)
+#library(rgdal)
 library(dataRetrieval)
 
 # grp <- c("USGS Topo", "USGS Imagery Only", "USGS Imagery Topo",
