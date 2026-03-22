@@ -9,7 +9,7 @@ navbar:
       href: Research.html
     - text: "People"
       href: People.html
-    - text: "Education and Outreach"
+    - text: "Education"
       href: ed_and_out.html   
     - text: "CV"
       href: CV.html

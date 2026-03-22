@@ -1,6 +1,6 @@
 ---
 title: __Peter Euclide__
-author: peuclide@iu.edu
+author: Indiana University
 date: "May 7, 2025"
 ---
 
